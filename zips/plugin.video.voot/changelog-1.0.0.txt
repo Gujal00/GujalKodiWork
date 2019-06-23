@@ -1,0 +1,2 @@
+[B]Version 1.0.0 - 3 Jul 2018[/B]
+- First release

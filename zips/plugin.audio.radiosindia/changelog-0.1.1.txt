@@ -1,0 +1,5 @@
+[B]Version 0.1.1 - 14 Dec 2016[/B]
+- Bug fix
+
+[B]Version 0.1.0 - 11 Dec 2016[/B]
+- First release

@@ -1,0 +1,443 @@
+[B]Version 2.8.6[/B]
+Changes by gujal
+ - Update cloudflare function
+
+[B]Version 2.8.5[/B]
+Changes by jairoxyz
+ - Pass title to Sportsdevil when <sportsdevil> tag is used
+ 
+[B]Version 2.8.4[/B]
+Changes by gujal
+ - Add openssl_aes decryption library
+Changes by jairoxyz
+ - Add Streamlink Proxy support
+
+[B]Version 2.8.3[/B]
+Changes by gujal
+ - Add <inputstream> tag to use with Inputstream addon on Kodi 17+
+   Supports multibitrate hls, mpeg-dash and MS Smoothstream.
+
+[B]Version 2.8.2[/B]
+Changes by gujal
+ - cloudflare function updated
+ - removed defunct hostile addons check
+ - change <urlsolve> tag to use resolveurl instead of urlresolver  
+
+[B]Version 2.8.1[/B]
+regex in title and thumbnail BUGFIX revised again
+[B]Version 2.8.0[/B]
+regex in title and thumbnail BUGFIX revised
+[B]Version 2.7.9[/B]
+regex in title and thumbnail BUGFIX
+[B]Version 2.7.8[/B]
+regex in title and thumbnail
+[B]Version 2.7.7[/B]
+download as mp3 if the name contains [mp3]
+[B]Version 2.7.6[/B]
+dont show error when regex contains notplayable --bug fix
+[B]Version 2.7.5[/B]
+dont show error when regex contains notplayable
+[B]Version 2.7.4[/B]
+proxy play shows progress and notification
+[B]Version 2.7.3[/B]
+regex support in title, useful in list
+[B]Version 2.7.2[/B]
+removed extension
+Version 2.7.1
+DES support for decryption
+Version 2.7.0
+youtube in playone
+Version 2.6.9
+playlist issue
+Version 2.6.8
+vipracing fix
+Version 2.6.7
+support for $$HLSRETRY$$
+Version 2.6.6
+unicode in title for playlist
+Version 2.6.5
+pyfunction in thumbnail
+Version 2.6.4
+now in LSPlayOnlyOne ignores the settings and group links in one
+Version 2.6.3
+now in listrepeat you have [regename.cookies]
+Version 2.6.2
+Added pyaesnew for more support of different block methods and padding.
+Version 2.6.1
+support for multiple link one play $$LSPlayOnlyOne$$ (small bug)
+Version 2.6.0
+support for multiple link one play $$LSPlayOnlyOne$$
+Version 2.5.9
+lsname without regex
+Version 2.5.8
+info and others tags supported in normal items
+Version 2.5.7
+$$lsname with regex fix
+Version 2.5.6
+lspro path issue
+Version 2.5.5
+bugfix in cloudflare function
+Version 2.5.4
+support for websocket
+Version 2.5.3
+support of headers in page and other places with two ==
+Version 2.5.2
+support of headers in externallink using |
+Version 2.5.1
+unicode support in pyfunction,and logging fix by gujal
+Version 2.5.0
+sucuri support, session/cookie correction
+Version 2.4.9
+sucuri support
+Version 2.4.8
+regex in external
+Version 2.4.7
+removed uploaded.net from urlresolver
+Version 2.4.6
+removed uploaded.net from urlresolver
+Version 2.4.5
+Support for Python function in listrepeat regex
+Version 2.4.4
+Added support for liveresolver
+Version 2.4.3
+bug fixed in playlist in dialogue mode in mix regex and unregex mode
+Version 2.4.2
+Name for multiple links
+Version 2.4.1
+disabled check for naughty builds online
+Version 2.4.0
+    check for naughty builds online
+Version 2.3.9
+    check for naughty builds
+Version 2.3.6
+    small error in blank page
+Version 2.3.5
+    aa decoder, little fix and notplayable to use for not showing the dialogue
+Version 2.3.4
+    error while page regex will make it nonblank
+Version 2.3.3
+    decode gzip page
+Version 2.3.2
+    unicode urls in image
+Version 2.3.1
+    unicode urls in image
+Version 2.3.0
+    added livestreams script addons
+Version 2.2.9
+    single dimension repeat bug
+Version 2.2.8
+    play command
+Version 2.2.7
+    double escape bug in listrepeat
+Version 2.2.6
+    support for encrypted xml/m3u8
+Version 2.2.5
+    Urlresolver, removed docs.google and added escape to listrepeat items
+Version 2.2.4
+    proxy username/pwd , thansks to jairox@tva
+Version 2.2.3
+    aadecoder fix
+Version 2.2.2
+    Support of $$TSDOWNLOADER$$ parameter in m3u url, if present, the .ts enteries will be executed with f4mtester.
+Version 2.2.1
+    improved unicode error trapping
+Version 2.2.0
+    improved unicode error trapping
+Version 2.1.9
+    improved unicode error trapping
+Version 2.1.8
+    improved aaencode decoding
+Version 2.1.7
+    support for cryptojs (ilikehd.com) with salt based decryption
+    
+Version 2.1.6
+    support for cryptojs (moje-filmy.tk) and viewmode
+    
+Version 2.1.5
+    support for AADecoder (japanese/emoticon encoding)
+Version 2.1.4
+  return NOTPACKED or UNPACKEDFAILED when the html is not having p.a.c.k.e.d section or it fails
+
+Version 2.1.3
+  bug grr
+
+Version 2.1.2
+support for calling from other addon, pass ?playitem=encodeditem
+
+Version 2.1.1
+support for TV5 decoding
+
+Version 2.1.0
+makelist bug
+
+Version 2.0.9
+better unicode support in repeat list
+
+Version 2.0.8
+recaptcha improved
+
+Version 2.0.7
+language support in recaptcha
+
+Version 2.0.6
+support google uncaptcha recaptcha with user input
+
+Version 2.0.5
+vipracing to return "" if playpath is ""
+
+Version 2.0.4
+Bug fix in listrepeat for single items for link
+
+Version 2.0.3
+Bug fix in listrepeat for single items for link
+
+Version 2.0.2
+googleReCaptcha function implemented
+
+Version 2.0.1
+Bug fix in listrepeat for single items. also now param0 is available which will be row number
+
+
+Version 2.0.0
+updated unpacked function to split on ABC as well as packed
+
+Version 1.9.9
+Ignore error in list creation
+
+Version 1.9.8
+Parental block
+
+Version 1.9.7
+Parental block
+
+Version 1.9.6
+list func bug
+
+Version 1.9.5
+revised list functionality in regex
+
+Version 1.9.4
+revised list functionality in regex
+
+Version 1.9.3
+support for list functionality in regex
+
+Version 1.9.2
+removed unused imports
+
+Version 1.9.1
+support for x-addr and RijndaelManaged encryption
+
+
+Version 1.9.0
+support for proxy using <proxy> tag and $PLAYERPROXY$=IPAddress:Port
+
+Version 1.8.6
+oneplay updated
+
+Version 1.8.5
+bugfix m3u parsing
+
+
+Version 1.8.4
+bugfix duplicate entry
+
+Version 1.8.3
+bugfix
+
+Version 1.8.2
+All changes by alibaba
+
+Version 1.8.1
+oneplay decryption function
+
+Version 1.8.0
+resolver rearranged
+
+Version 1.7.9
+functions support in LSPro xml file
+
+Version 1.7.8
+one mistake in oneplay
+
+Version 1.7.7
+Oneplay decryption! only for NOOB :D
+
+Version 1.7.6
+Rolled back changes in 1.7.2 is back on, thanks alibaba!
+
+Version 1.7.5
+fixed captchanew function and support accept there
+
+Version 1.7.4
+added accept param for regex
+
+Version 1.7.3
+support for new captcha function
+
+Version 1.7.2
+now includeheaders include all the headers.
+
+Version 1.7.1
+Bug fixes
+
+Version 1.7.0
+Bug fixes
+
+Version 1.6.9
+icon change and other details
+
+Version 1.6.8
+Thanks to Alibaba, updated the multi playlist settings for regex etc
+
+Version 1.6.7
+Thanks to Alibaba, updated the multi playlist settings as well sync with Lambda settings
+
+Version 1.6.6
+NOTPlayable option in item
+
+Version 1.6.5
+NOTPlayable option in item
+
+Version 1.6.4
+Cloudflare wait 4 seconds
+
+Version 1.6.2
+CF pass value with quoteplus
+
+Version 1.6.2
+CF pass value
+
+Version 1.6.1
+fix the release issue
+
+
+Version 1.6.0
+support for noredirect tag in regex to stop the redirect
+
+Version 1.5.9
+Thanks to alibaba@tvaddons, added f4m,youtube and ftv tags etc.
+
+Version 1.5.8
+added param for referer in vip racing
+
+Version 1.5.7
+fix iphonetv and sample to use it
+
+Version 1.5.6
+added daramas online addon in ignore setsolved list
+
+Version 1.5.5
+added zemtv addon in ignore setsolved list, thanks to gujal and alibaba, a quick fix in iphonetv_url function
+
+Version 1.5.4
+minor change in vipracing for ilive
+
+Version 1.5.3
+added a function to parse ads in hls m38 file ferrari
+
+Version 1.5.2
+Fixed accented char issue in m3u8 parsing
+
+Version 1.5.1
+Thanks to Alibaba, added daily motion search ,pulsar and many more 
+
+Version 1.5.0
+Thanks to Alibaba, added download support and fix url resolver issue with helix, plus many more
+
+Version 1.4.9
+bug fix, Channels could contain multiple item which could have each externallink
+
+Version 1.4.8
+Alibaba changes, bug fix
+
+Version 1.4.7
+Alibaba changes, support for m3u file,urlresolver and youtube-dl 
+
+Version 1.4.6
+support appendCookie
+
+Version 1.4.5
+support regex in setCookie
+
+Version 1.4.4
+Support SaveToFile and LoadFile function
+
+Version 1.4.3
+support for clourdflare
+
+Version 1.4.2
+support for wat.tv token generation
+
+Version 1.4.1
+support iguide too
+
+Version 1.4.0
+little improvment so that one you call vipracing function to decrypt ilive and others
+
+Version 1.3.9
+Change to support the calls to Vaughnlive,ilive,p2p, and sportsdevil. Thanks to alibbaba@tvaddon.ag
+
+Version 1.3.8
+vipracing function, support for option pages
+
+
+Version 1.3.7
+epoctime2 in page tag and vipracing function
+
+
+Version 1.3.6
+epoctime in page tag
+
+Version 1.3.5
+enable ignorecache
+
+Version 1.3.4
+fix to ignore if regex fails
+
+Version 1.3.3
+bug fixed for externallink
+
+Version 1.3.2
+Added get_packed_iphonetv_url
+
+Version 1.3.1
+improved Dag function, now it support to recive the dag url directly
+
+Version 1.3.0
+Support for x-forward
+
+Version 1.2.9
+Support for vaughlive
+
+Version 1.2.8
+Support for f4m via regex.
+
+Version 1.2.7
+Support for playtv.fr: Pass channelid to the function get_url
+<expres>$pyFunction:playtvfr.get_url('$doregex[getplayerid]')</expres>
+
+Version 1.2.5
+Bug fix
+
+Version 1.2.5
+Support for playmedia
+
+Version 1.2.4
+Added get_saw_rtmp and get_leton_rtmp support
+
+Version 1.2.3
+Support for decrypting wise function, also DAG url player
+
+Version 1.2.2
+Support for retry for ustream links, now new function is available
+
+Version 1.2.1
+Corrected the copy paste problem lol
+
+Version 1.2.0
+Cloned from divingmules and added all my changes
+
+
+Version 1.1.3
+update for XBMC Gotham compatibility
