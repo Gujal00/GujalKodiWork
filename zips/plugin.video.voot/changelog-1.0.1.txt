@@ -1,7 +1,0 @@
-[B]Version 1.0.1 - 4 Jul 2018[/B]
-- Minor bug fix relating to erroneous data from site sometimes
-- Add number of available items to titles
-- Force Settings display on addon update
-
-[B]Version 1.0.0 - 3 Jul 2018[/B]
-- First release
