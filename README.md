@@ -13,8 +13,8 @@ These addons and their developers are not in any way affiliated with Kodi or any
 ## Addons in repository
 |Icon|Name|Version|Release Date|Status|
 |---|---|---|---|---|
-|<img src="https://raw.githubusercontent.com/Gujal00/GujalKodiWork/master/zips/plugin.audio.jiomusic/icon.png" width="96">|Jio Music|0.3.0|[2017-11-12](https://raw.githubusercontent.com/Gujal00/GujalKodiWork/master/zips/plugin.audio.jiomusic/changelog.txt)|Working
-|<img src="https://raw.githubusercontent.com/Gujal00/GujalKodiWork/master/zips/plugin.audio.radiosindia/icon.png" width="96">|Radios India|0.2.0|[2018-03-31](https://raw.githubusercontent.com/Gujal00/GujalKodiWork/master/zips/plugin.audio.radiosindia/changelog.txt)|Working
-|<img src="https://raw.githubusercontent.com/Gujal00/GujalKodiWork/master/zips/plugin.video.live.streamspro/icon.png" width="96">|Live Streams Pro|2.8.4|[2018-05-30](https://raw.githubusercontent.com/Gujal00/GujalKodiWork/master/zips/plugin.video.live.streamspro/changelog.txt)|Working
+|<img src="https://raw.githubusercontent.com/Gujal00/GujalKodiWork/master/zips/plugin.audio.jiomusic/icon.png" width="96">|Jio Music|0.5.1|[2019-03-27](https://raw.githubusercontent.com/Gujal00/GujalKodiWork/master/zips/plugin.audio.jiomusic/changelog.txt)|Working
+|<img src="https://raw.githubusercontent.com/Gujal00/GujalKodiWork/master/zips/plugin.audio.radiosindia/icon.png" width="96">|Radios India|0.3.2|[201-04-22](https://raw.githubusercontent.com/Gujal00/GujalKodiWork/master/zips/plugin.audio.radiosindia/changelog.txt)|Working
+|<img src="https://raw.githubusercontent.com/Gujal00/GujalKodiWork/master/zips/plugin.video.live.streamspro/icon.png" width="96">|Live Streams Pro|2.8.9|[2019-06-22](https://raw.githubusercontent.com/Gujal00/GujalKodiWork/master/zips/plugin.video.live.streamspro/changelog.txt)|Working
 |<img src="https://raw.githubusercontent.com/Gujal00/GujalKodiWork/master/zips/plugin.video.sonyliv/icon.png" width="96">|SonyLiv|1.1.5|[2019-03-27](https://raw.githubusercontent.com/Gujal00/GujalKodiWork/master/zips/plugin.video.sonyliv/changelog.txt)|Working
 |<img src="https://raw.githubusercontent.com/Gujal00/GujalKodiWork/master/zips/plugin.video.voot/icon.png" width="96">|Voot|1.0.6|[2019-03-27](https://raw.githubusercontent.com/Gujal00/GujalKodiWork/master/zips/plugin.video.voot/changelog.txt)|Working
