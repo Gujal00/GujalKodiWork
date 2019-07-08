@@ -61,6 +61,44 @@ provider-name="gujal">
 </extension>
 </addon>
 
+<addon id="plugin.video.deccandelight" version="1.7.7" name="Deccan Delight" provider-name="gujal">
+<requires>
+  <import addon="xbmc.python" version="2.20.0"/>
+  <import addon="script.module.requests" version="2.4.3"/>
+  <import addon="script.module.beautifulsoup" version="3.2.1"/>
+  <import addon="script.module.resolveurl" version="5.0.00"/>
+  <import addon="script.common.plugin.cache" version="2.5.5"/>
+  <import addon="plugin.video.f4mTester" version="2.2.3"/>
+</requires>
+<extension point="xbmc.python.pluginsource" library="main.py">
+  <provides>video</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+	<summary>Entertainment from the Deccan region of India</summary>
+	<description>This addon provides access to entertainment in various Deccan languages such as Tamil, Telugu, Malayalam, Kannada, and Hindi
+DeccanDelight is and always will be free and open-source. None of its code and resources may be sold or redistributed for any commercial purposes.
+DeccanDelight and its developers [B]DO NOT[/B] host, create, or distribute any of the content displayed in the addon, it simply scrapes ad financed public websites.</description>
+	<platform>all</platform>
+	<website>https://github.com/Gujal00/GujalKodiWork</website>
+	<disclaimer>DeccanDelight and its developers are not in any way affiliated with Kodi or any of the sites and providers used in the addon.</disclaimer>
+	<news>
+[B]Version 1.7.7 - 8 Jul 2019[/B]
+ - Add Sominal
+ - Fix TV Yaar
+ - Fix Tamilgun
+ - Domain changes
+ - Remove old dead sources
+	</news>
+	<assets>
+		<icon>icon.png</icon>
+		<fanart>fanart.jpg</fanart>
+		<screenshot>resources/images/screenshot-01.jpg</screenshot>
+		<screenshot>resources/images/screenshot-02.jpg</screenshot>
+		<screenshot>resources/images/screenshot-03.jpg</screenshot>
+	</assets>
+</extension>
+</addon>
+
 <addon id="plugin.video.f4mTester" version="2.7.1" name="f4mTester" provider-name="Shani">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
