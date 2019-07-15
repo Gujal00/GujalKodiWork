@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
 <addon id="plugin.audio.jiomusic"
-version="0.5.1"
+version="0.5.2"
 name="Jio Music"
 provider-name="gujal">
 <requires>
@@ -17,8 +17,8 @@ provider-name="gujal">
   <description>Music for every moment. Millions of music tracks across various genres, moods, artists and languages. Right music for every moment!</description>
   <disclaimer>This 3rd party addon is not in any way commissioned or endorsed by Jio</disclaimer>
   <news>
-[B]Version 0.5.0 - 19 Jul 2018[/B]
-- Fix errors in Infolabels
+[B]Version 0.5.2 - 26 Jun 2019[/B]
+- Add Haryanvi Language
   </news>
   <assets>
     <icon>icon.png</icon>

@@ -1,3 +1,6 @@
+[B]Version 0.5.2 - 26 Jun 2019[/B]
+- Add Haryanvi Language
+
 [B]Version 0.5.0 - 19 Jul 2018[/B]
 - Fix errors in Infolabels
 
