@@ -1,3 +1,11 @@
+[B]Version 2.9.0[/B]
+Changes by gujal
+ - Added RSA Labs Password-Based Key Derivation Function 2 
+
+[B]Version 2.8.9[/B]
+Changes by gujal
+ - Fix Log spew
+
 [B]Version 2.8.6[/B]
 Changes by gujal
  - Update cloudflare function
@@ -25,128 +33,190 @@ Changes by gujal
 
 [B]Version 2.8.1[/B]
 regex in title and thumbnail BUGFIX revised again
+
 [B]Version 2.8.0[/B]
 regex in title and thumbnail BUGFIX revised
+
 [B]Version 2.7.9[/B]
 regex in title and thumbnail BUGFIX
+
 [B]Version 2.7.8[/B]
 regex in title and thumbnail
+
 [B]Version 2.7.7[/B]
 download as mp3 if the name contains [mp3]
+
 [B]Version 2.7.6[/B]
 dont show error when regex contains notplayable --bug fix
+
 [B]Version 2.7.5[/B]
 dont show error when regex contains notplayable
+
 [B]Version 2.7.4[/B]
 proxy play shows progress and notification
+
 [B]Version 2.7.3[/B]
 regex support in title, useful in list
+
 [B]Version 2.7.2[/B]
 removed extension
+
 Version 2.7.1
 DES support for decryption
+
 Version 2.7.0
 youtube in playone
+
 Version 2.6.9
 playlist issue
+
 Version 2.6.8
 vipracing fix
+
 Version 2.6.7
 support for $$HLSRETRY$$
+
 Version 2.6.6
 unicode in title for playlist
+
 Version 2.6.5
 pyfunction in thumbnail
+
 Version 2.6.4
 now in LSPlayOnlyOne ignores the settings and group links in one
+
 Version 2.6.3
 now in listrepeat you have [regename.cookies]
+
 Version 2.6.2
 Added pyaesnew for more support of different block methods and padding.
+
 Version 2.6.1
 support for multiple link one play $$LSPlayOnlyOne$$ (small bug)
+
 Version 2.6.0
 support for multiple link one play $$LSPlayOnlyOne$$
+
 Version 2.5.9
 lsname without regex
+
 Version 2.5.8
 info and others tags supported in normal items
+
 Version 2.5.7
 $$lsname with regex fix
+
 Version 2.5.6
 lspro path issue
+
 Version 2.5.5
 bugfix in cloudflare function
+
 Version 2.5.4
 support for websocket
+
 Version 2.5.3
 support of headers in page and other places with two ==
+
 Version 2.5.2
 support of headers in externallink using |
+
 Version 2.5.1
 unicode support in pyfunction,and logging fix by gujal
+
 Version 2.5.0
 sucuri support, session/cookie correction
+
 Version 2.4.9
 sucuri support
+
 Version 2.4.8
 regex in external
+
 Version 2.4.7
 removed uploaded.net from urlresolver
+
 Version 2.4.6
 removed uploaded.net from urlresolver
+
 Version 2.4.5
 Support for Python function in listrepeat regex
+
 Version 2.4.4
 Added support for liveresolver
+
 Version 2.4.3
 bug fixed in playlist in dialogue mode in mix regex and unregex mode
+
 Version 2.4.2
 Name for multiple links
+
 Version 2.4.1
 disabled check for naughty builds online
+
 Version 2.4.0
     check for naughty builds online
+
 Version 2.3.9
     check for naughty builds
+
 Version 2.3.6
     small error in blank page
+
 Version 2.3.5
     aa decoder, little fix and notplayable to use for not showing the dialogue
+
 Version 2.3.4
     error while page regex will make it nonblank
+
 Version 2.3.3
     decode gzip page
+
 Version 2.3.2
     unicode urls in image
+
 Version 2.3.1
     unicode urls in image
+
 Version 2.3.0
     added livestreams script addons
+
 Version 2.2.9
     single dimension repeat bug
+
 Version 2.2.8
     play command
+
 Version 2.2.7
     double escape bug in listrepeat
+
 Version 2.2.6
     support for encrypted xml/m3u8
+
 Version 2.2.5
     Urlresolver, removed docs.google and added escape to listrepeat items
+
 Version 2.2.4
     proxy username/pwd , thansks to jairox@tva
+
 Version 2.2.3
     aadecoder fix
+
 Version 2.2.2
     Support of $$TSDOWNLOADER$$ parameter in m3u url, if present, the .ts enteries will be executed with f4mtester.
+
 Version 2.2.1
     improved unicode error trapping
+
 Version 2.2.0
     improved unicode error trapping
+
 Version 2.1.9
     improved unicode error trapping
+
 Version 2.1.8
     improved aaencode decoding
+
 Version 2.1.7
     support for cryptojs (ilikehd.com) with salt based decryption
     
