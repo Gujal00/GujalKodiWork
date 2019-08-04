@@ -61,7 +61,7 @@ provider-name="gujal">
 </extension>
 </addon>
 
-<addon id="plugin.video.deccandelight" version="1.7.9" name="Deccan Delight" provider-name="gujal">
+<addon id="plugin.video.deccandelight" version="1.8.2" name="Deccan Delight" provider-name="gujal">
 <requires>
   <import addon="xbmc.python" version="2.20.0"/>
   <import addon="script.module.requests" version="2.4.3"/>
@@ -82,8 +82,10 @@ DeccanDelight and its developers [B]DO NOT[/B] host, create, or distribute any o
 	<website>https://github.com/Gujal00/GujalKodiWork</website>
 	<disclaimer>DeccanDelight and its developers are not in any way affiliated with Kodi or any of the sites and providers used in the addon.</disclaimer>
 	<news>
-[B]Version 1.7.9 - 17 Jul 2019[/B]
- - Fix Einthusan
+[B]Version 1.8.2 - 04 Aug 2019[/B]
+ - Fix Mersalaayitten
+ - Fix MDHTV
+ - Add Cine Malayalam
 	</news>
 	<assets>
 		<icon>icon.png</icon>
@@ -93,6 +95,23 @@ DeccanDelight and its developers [B]DO NOT[/B] host, create, or distribute any o
 		<screenshot>resources/images/screenshot-03.jpg</screenshot>
 	</assets>
 </extension>
+</addon>
+
+<addon id="plugin.video.f4mTester" version="2.7.1" name="f4mTester" provider-name="Shani">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="script.video.F4mProxy" version="2.7.1"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+
+
+    <extension point="xbmc.addon.metadata">
+        <summary>f4mTester</summary>
+        <description></description>
+        <platform>all</platform>
+    </extension>
 </addon>
 
 <addon id="plugin.video.live.streamspro"
@@ -273,5 +292,6 @@ With over 35,000 hours of exciting content for audiences with varying choices an
     <description lang="en">Use this addon to play F4m v1 and v2 streams</description>
   </extension>
 </addon>
+
 
 </addons>
