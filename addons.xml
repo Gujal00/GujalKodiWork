@@ -61,7 +61,7 @@ provider-name="gujal">
 </extension>
 </addon>
 
-<addon id="plugin.video.deccandelight" version="1.8.5" name="Deccan Delight" provider-name="gujal">
+<addon id="plugin.video.deccandelight" version="1.8.7" name="Deccan Delight" provider-name="gujal">
 <requires>
   <import addon="xbmc.python" version="2.20.0"/>
   <import addon="script.module.requests" version="2.4.3"/>
@@ -82,15 +82,9 @@ DeccanDelight and its developers [B]DO NOT[/B] host, create, or distribute any o
 	<website>https://github.com/Gujal00/GujalKodiWork</website>
 	<disclaimer>DeccanDelight and its developers are not in any way affiliated with Kodi or any of the sites and providers used in the addon.</disclaimer>
 	<news>
-[B]Version 1.8.5 - 15 Aug 2019[/B]
- - Add Geo TV
- - Add Online Movie Watch
- - Add Online Movies Gold
- - Add Kannada Cine
- - Fix ThiruttuVCD
- - Fix Desitashan
- - MovieRulz Domain Change
- - APKLand Domain Change
+[B]Version 1.8.7 - 1 Sep 2019[/B]
+ - Fix Tamilgun
+ - Fix Tamilyogi
 	</news>
 	<assets>
 		<icon>icon.png</icon>

@@ -1,3 +1,11 @@
+[B]Version 1.8.7 - 1 Sep 2019[/B] 
+ - Fix Tamilgun
+ - Fix Tamilyogi
+
+[B]Version 1.8.6 - 18 Aug 2019[/B] 
+ - Fix Tamilgun
+ - Fix Sominal
+ 
 [B]Version 1.8.5 - 15 Aug 2019[/B] 
  - Add Geo TV
  - Add Online Movie Watch
