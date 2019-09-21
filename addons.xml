@@ -82,7 +82,7 @@ DeccanDelight and its developers [B]DO NOT[/B] host, create, or distribute any o
 	<website>https://github.com/Gujal00/GujalKodiWork</website>
 	<disclaimer>DeccanDelight and its developers are not in any way affiliated with Kodi or any of the sites and providers used in the addon.</disclaimer>
 	<news>
-[B]Version 1.8.7 - 1 Sep 2019[/B]
+[B]Version 1.8.7 - 1 Sep 2019[/B] 
  - Fix Tamilgun
  - Fix Tamilyogi
 	</news>
@@ -115,7 +115,7 @@ DeccanDelight and its developers [B]DO NOT[/B] host, create, or distribute any o
 
 <addon id="plugin.video.live.streamspro"
        name="LiveStreamsPro"
-       version="2.9.0"
+       version="2.9.1"
        provider-name="Shani">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -127,6 +127,7 @@ DeccanDelight and its developers [B]DO NOT[/B] host, create, or distribute any o
     <import addon="script.module.youtube.dl" optional="true"/>
     <import addon="plugin.video.youtube" optional="true" />
     <import addon="script.module.resolveurl" optional="true"/>
+    <import addon="script.module.urlresolver" optional="true"/>
     <import addon="script.module.simplejson" />
     <import addon="script.module.livestreamer" optional="true"/>
     <import addon="script.module.slproxy" optional="true"/>

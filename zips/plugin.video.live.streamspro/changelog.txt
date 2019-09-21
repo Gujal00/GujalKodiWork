@@ -1,3 +1,9 @@
+[B]Version 2.9.1[/B]
+Changes by gujal
+ - Added Widevine DRM support for MPEG-DASH streams
+   append license url to stream url as below
+   <stream_url>$$lic=<license_url>
+
 [B]Version 2.9.0[/B]
 Changes by gujal
  - Added RSA Labs Password-Based Key Derivation Function 2 
