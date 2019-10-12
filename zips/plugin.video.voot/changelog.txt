@@ -1,3 +1,6 @@
+[B]Version 1.0.7 - 12 Oct 2019[/B]
+- Playback Fix
+
 [B]Version 1.0.6 - 27 Mar 2019[/B]
 - Parsing Fixes
 
