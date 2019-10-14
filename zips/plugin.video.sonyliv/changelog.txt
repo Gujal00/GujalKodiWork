@@ -1,3 +1,6 @@
+[B]Version 1.1.6 - 14 Oct 2019[/B]
+- Navigation fixes
+
 [B]Version 1.1.5 - 27 Mar 2019[/B]
 - Playback fix
 
