@@ -61,7 +61,7 @@ provider-name="gujal">
 </extension>
 </addon>
 
-<addon id="plugin.video.deccandelight" version="1.8.7" name="Deccan Delight" provider-name="gujal">
+<addon id="plugin.video.deccandelight" version="1.9.0" name="Deccan Delight" provider-name="gujal">
 <requires>
   <import addon="xbmc.python" version="2.20.0"/>
   <import addon="script.module.requests" version="2.4.3"/>
@@ -81,6 +81,11 @@ DeccanDelight and its developers [B]DO NOT[/B] host, create, or distribute any o
 	<platform>all</platform>
 	<website>https://github.com/Gujal00/GujalKodiWork</website>
 	<disclaimer>DeccanDelight and its developers are not in any way affiliated with Kodi or any of the sites and providers used in the addon.</disclaimer>
+	<news>
+[B]Version 1.9.0 - 28 Oct 2019[/B]
+- Fix Tamilgun
+- Fix Tamilyogi
+	</news>
 	<assets>
 		<icon>icon.png</icon>
 		<fanart>fanart.jpg</fanart>
@@ -110,7 +115,7 @@ DeccanDelight and its developers [B]DO NOT[/B] host, create, or distribute any o
 
 <addon id="plugin.video.live.streamspro"
        name="LiveStreamsPro"
-       version="2.9.2"
+       version="2.9.3"
        provider-name="Shani">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -121,8 +126,10 @@ DeccanDelight and its developers [B]DO NOT[/B] host, create, or distribute any o
     <import addon="script.module.liveresolver" version="0.1.24" optional="true"/>
     <import addon="script.module.youtube.dl" optional="true"/>
     <import addon="plugin.video.youtube" optional="true" />
+    <import addon="script.module.dateutil" optional="true" />
     <import addon="script.module.resolveurl" optional="true"/>
     <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.inputstreamhelper" optional="true"/>
     <import addon="script.module.simplejson" />
     <import addon="script.module.livestreamer" optional="true"/>
     <import addon="script.module.slproxy" optional="true"/>
@@ -193,31 +200,31 @@ version="1.0.7"
 name="Voot"
 provider-name="gujal">
 <requires>
-  <import addon="xbmc.python" version="2.24.0"/>
-  <import addon="script.module.requests" version="2.4.3"/>
-  <import addon="script.common.plugin.cache" version="2.5.5"/>
+	<import addon="xbmc.python" version="2.24.0"/>
+	<import addon="script.module.requests" version="2.4.3"/>
+	<import addon="script.common.plugin.cache" version="2.5.5"/>
 </requires>
 <extension point="xbmc.python.pluginsource" library="main.py">
-  <provides>video</provides>
+	<provides>video</provides>
 </extension>
 <extension point="xbmc.addon.metadata">
-  <summary>VOOT - Watch Free Online TV Shows, Movies, Kids Shows HD Quality on VOOT. Keep Vooting.</summary>
-  <description>Voot is a video on-demand platform, part of Viacom 18 Digital Ventures, the digital arm of Viacom 18 - one of the country’s largest growing media networks.
+	<summary>VOOT - Watch Free Online TV Shows, Movies, Kids Shows HD Quality on VOOT. Keep Vooting.</summary>
+	<description>Voot is a video on-demand platform, part of Viacom 18 Digital Ventures, the digital arm of Viacom 18 - one of the country’s largest growing media networks.
 With over 35,000 hours of exciting content for audiences with varying choices and preferences, covering Colors (Hindi), MTV, Nickelodeon, Viacom18 Motion Pictures, Colors Kannada, Colors Marathi, Colors Bangla, Colors Super and Colors Gujarati, Voot offers the biggest TV Shows, Blockbuster Movies, your favorite Toons &amp; Voot Originals, absolutely Free.</description>
-  <platform>all</platform>
-  <website>https://www.voot.com/</website>
-  <disclaimer>This 3rd party addon is not in any way commissioned or endorsed by Viacom 18</disclaimer>
-  <news>
+	<platform>all</platform>
+	<website>https://www.voot.com/</website>
+	<disclaimer>This 3rd party addon is not in any way commissioned or endorsed by Viacom 18</disclaimer>
+	<news>
 [B]Version 1.0.7 - 12 Oct 2019[/B]
 - Playback Fix
-  </news>
-  <assets>
-    <icon>icon.png</icon>
-    <fanart>fanart.jpg</fanart>
-    <screenshot>resources/screenshot-01.jpg</screenshot>
-    <screenshot>resources/screenshot-02.jpg</screenshot>
-    <screenshot>resources/screenshot-03.jpg</screenshot>
-  </assets>
+	</news>
+	<assets>
+		<icon>icon.png</icon>
+		<fanart>fanart.jpg</fanart>
+		<screenshot>resources/screenshot-01.jpg</screenshot>
+		<screenshot>resources/screenshot-02.jpg</screenshot>
+		<screenshot>resources/screenshot-03.jpg</screenshot>
+	</assets>
 </extension>
 </addon>
 

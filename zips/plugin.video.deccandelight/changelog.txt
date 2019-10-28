@@ -1,3 +1,24 @@
+[B]Version 1.9.0 - 28 Oct 2019[/B] 
+- Fix Tamilgun
+- Fix Tamilyogi
+
+[B]Version 1.8.9 - 3 Oct 2019[/B] 
+- Fix Tamilgun
+- Fix Tamilyogi
+- Fix India4Movie
+- Fix thumbnails in OnlineMovieWatch
+- Fix Sun TV Programs in TamilDhool
+
+[B]Version 1.8.8 - 6 Sep 2019[/B] 
+ - Fix Einthusan pagination
+ - Fix HindiLinks thumbnails
+ - Fix Sominal CDN scraping
+ - Fix Geo TV error on series with no episodes
+ - Fix Hum TV thumbnails
+ - India4Movie domain change
+ - Fix OnlineMoviewatch Pagination
+ - WatchOnlineMovies domain change 
+
 [B]Version 1.8.7 - 1 Sep 2019[/B] 
  - Fix Tamilgun
  - Fix Tamilyogi
