@@ -1,4 +1,5 @@
 # Kodi addons developed by gujal
+
 Latest repository zip file is 
 [repository.gujal-1.8](https://github.com/Gujal00/GujalKodiWork/releases/download/1.8/repository.gujal-1.8.zip)
 <br>
@@ -14,5 +15,5 @@ These addons and their developers are not in any way affiliated with Kodi or any
 |<img src="https://raw.githubusercontent.com/Gujal00/GujalKodiWork/master/zips/plugin.audio.jiomusic/icon.png" width="96">|Jio Music|0.5.2|[2019-07-15](https://raw.githubusercontent.com/Gujal00/GujalKodiWork/master/zips/plugin.audio.jiomusic/changelog.txt)|Working
 |<img src="https://raw.githubusercontent.com/Gujal00/GujalKodiWork/master/zips/plugin.audio.radiosindia/icon.png" width="96">|Radios India|0.3.2|[2019-04-22](https://raw.githubusercontent.com/Gujal00/GujalKodiWork/master/zips/plugin.audio.radiosindia/changelog.txt)|Working
 |<img src="https://raw.githubusercontent.com/Gujal00/GujalKodiWork/master/zips/plugin.video.live.streamspro/icon.png" width="96">|Live Streams Pro|2.9.3|[2019-10-28](https://raw.githubusercontent.com/Gujal00/GujalKodiWork/master/zips/plugin.video.live.streamspro/changelog.txt)|Working
-|<img src="https://raw.githubusercontent.com/Gujal00/GujalKodiWork/master/zips/plugin.video.sonyliv/icon.png" width="96">|SonyLiv|1.1.6|[2019-10-14](https://raw.githubusercontent.com/Gujal00/GujalKodiWork/master/zips/plugin.video.sonyliv/changelog.txt)|Working
+|<img src="https://raw.githubusercontent.com/Gujal00/GujalKodiWork/master/zips/plugin.video.sonyliv/icon.png" width="96">|SonyLiv|1.1.7|[2019-11-10](https://raw.githubusercontent.com/Gujal00/GujalKodiWork/master/zips/plugin.video.sonyliv/changelog.txt)|Working
 |<img src="https://raw.githubusercontent.com/Gujal00/GujalKodiWork/master/zips/plugin.video.voot/icon.png" width="96">|Voot|1.0.7|[2019-10-12](https://raw.githubusercontent.com/Gujal00/GujalKodiWork/master/zips/plugin.video.voot/changelog.txt)|Working

@@ -61,7 +61,7 @@ provider-name="gujal">
 </extension>
 </addon>
 
-<addon id="plugin.video.deccandelight" version="1.9.0" name="Deccan Delight" provider-name="gujal">
+<addon id="plugin.video.deccandelight" version="1.9.1" name="Deccan Delight" provider-name="gujal">
 <requires>
   <import addon="xbmc.python" version="2.20.0"/>
   <import addon="script.module.requests" version="2.4.3"/>
@@ -82,9 +82,8 @@ DeccanDelight and its developers [B]DO NOT[/B] host, create, or distribute any o
 	<website>https://github.com/Gujal00/GujalKodiWork</website>
 	<disclaimer>DeccanDelight and its developers are not in any way affiliated with Kodi or any of the sites and providers used in the addon.</disclaimer>
 	<news>
-[B]Version 1.9.0 - 28 Oct 2019[/B]
-- Fix Tamilgun
-- Fix Tamilyogi
+[B]Version 1.9.1 - 10 Nov 2019[/B]
+- MHDTV Domain change
 	</news>
 	<assets>
 		<icon>icon.png</icon>
@@ -162,7 +161,7 @@ DeccanDelight and its developers [B]DO NOT[/B] host, create, or distribute any o
 </addon>
 
 <addon id="plugin.video.sonyliv"
-version="1.1.6"
+version="1.1.7"
 name="SonyLIV"
 provider-name="gujal">
 <requires>
@@ -182,8 +181,8 @@ Launched in January 2013, it enables users to discover 20 years of rich content 
 	<website>https://www.sonyliv.com/</website>
 	<disclaimer>This 3rd party addon is not in any way commissioned or endorsed by Sony Pictures Networks India Pvt. Ltd.</disclaimer>
 	<news>
-[B]Version 1.1.6 - 14 Oct 2019[/B]
-- Navigation fixes
+[B]Version 1.1.7 - 10 Nov 2019[/B]
+- More Navigation fixes
 	</news>
 	<assets>
 		<icon>icon.png</icon>
