@@ -1,3 +1,9 @@
+[B]Version 1.9.3 - 07 Jan 2020[/B]
+- Scraper fixes
+
+[B]Version 1.9.2 - 10 Nov 2019[/B] 
+- Fix Tamilyogi
+
 [B]Version 1.9.1 - 10 Nov 2019[/B] 
 - MHDTV Domain change
 
