@@ -61,7 +61,7 @@ provider-name="gujal">
 </extension>
 </addon>
 
-<addon id="plugin.video.deccandelight" version="1.9.3" name="Deccan Delight" provider-name="gujal">
+<addon id="plugin.video.deccandelight" version="1.9.4" name="Deccan Delight" provider-name="gujal">
 <requires>
   <import addon="xbmc.python" version="2.20.0"/>
   <import addon="script.module.requests" version="2.4.3"/>
@@ -82,8 +82,8 @@ DeccanDelight and its developers [B]DO NOT[/B] host, create, or distribute any o
 	<website>https://github.com/Gujal00/GujalKodiWork</website>
 	<disclaimer>DeccanDelight and its developers are not in any way affiliated with Kodi or any of the sites and providers used in the addon.</disclaimer>
 	<news>
-[B]Version 1.9.3 - 07 Jan 2020[/B]
-- Scraper fixes
+[B]Version 1.9.4 - 07 Jan 2020[/B]
+- missing file in previous release
 	</news>
 	<assets>
 		<icon>icon.png</icon>
@@ -192,40 +192,6 @@ Launched in January 2013, it enables users to discover 20 years of rich content 
 		<screenshot>resources/screenshot-03.jpg</screenshot>
 	</assets>
 </extension>
-</addon>
-
-<addon id="plugin.video.strmpro"
-       name="STRM-Pro"
-       version="1.0.0"
-       provider-name="gujal">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.requests" />
-    <import addon="script.module.beautifulsoup4" optional="true"/>
-    <import addon="script.module.youtube.dl" optional="true"/>
-    <import addon="plugin.video.youtube" optional="true" />
-    <import addon="script.module.dateutil" optional="true" />
-    <import addon="script.module.resolveurl" optional="true"/>
-    <import addon="script.module.urlresolver" optional="true"/>
-    <import addon="script.module.inputstreamhelper" optional="true"/>
-    <import addon="script.module.slproxy" optional="true"/>
-    <import addon="script.module.pyamf" optional="true"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
-  </extension>
-
-
-  <extension point="xbmc.addon.metadata">
-    <summary>Allows to store and play multiple streams in a XML file</summary>
-    <description>
-      Kodi's STRM provides a method to store the URL of a webstream and playback.
-      However it only allows one URL per STRM file. STRM-Pro enhances this functionality
-      by providing a facility to store multiple urls in a single XML file which makes it
-      easy to maintain.
-    </description>
-    <platform>all</platform>
-  </extension>
 </addon>
 
 <addon id="plugin.video.voot"

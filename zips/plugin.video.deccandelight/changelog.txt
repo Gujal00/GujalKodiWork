@@ -1,3 +1,6 @@
+[B]Version 1.9.4 - 07 Jan 2020[/B]
+- missing file in previous release 
+
 [B]Version 1.9.3 - 07 Jan 2020[/B]
 - Scraper fixes
 
