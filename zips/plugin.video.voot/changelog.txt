@@ -1,3 +1,6 @@
+[B]Version 1.0.8 - 19 Jan 2020[/B]
+- Add Tamil, Telugu, Gujarati to movies section
+
 [B]Version 1.0.7 - 12 Oct 2019[/B]
 - Playback Fix
 

@@ -195,7 +195,7 @@ Launched in January 2013, it enables users to discover 20 years of rich content 
 </addon>
 
 <addon id="plugin.video.voot"
-version="1.0.7"
+version="1.0.8"
 name="Voot"
 provider-name="gujal">
 <requires>
@@ -203,7 +203,7 @@ provider-name="gujal">
 	<import addon="script.module.requests" version="2.4.3"/>
 	<import addon="script.common.plugin.cache" version="2.5.5"/>
 </requires>
-<extension point="xbmc.python.pluginsource" library="main.py">
+<extension point="xbmc.python.pluginsource" library="default.py">
 	<provides>video</provides>
 </extension>
 <extension point="xbmc.addon.metadata">
@@ -214,8 +214,8 @@ With over 35,000 hours of exciting content for audiences with varying choices an
 	<website>https://www.voot.com/</website>
 	<disclaimer>This 3rd party addon is not in any way commissioned or endorsed by Viacom 18</disclaimer>
 	<news>
-[B]Version 1.0.7 - 12 Oct 2019[/B]
-- Playback Fix
+[B]Version 1.0.8 - 19 Jan 2020[/B]
+- Add Tamil, Telugu, Gujarati to movies section
 	</news>
 	<assets>
 		<icon>icon.png</icon>
