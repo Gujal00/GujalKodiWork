@@ -1,24 +1,32 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
 <addon id="plugin.audio.jiomusic"
-version="0.5.2"
-name="Jio Music"
+version="0.5.3"
+name="JioSaavn"
 provider-name="gujal">
 <requires>
   <import addon="xbmc.python" version="2.20.0"/>
   <import addon="script.module.requests" version="2.4.3"/>
   <import addon="script.common.plugin.cache" version="2.5.5"/>
+  <import addon="script.module.future" version="0.0.1"/>
 </requires>
 <extension point="xbmc.python.pluginsource" library="main.py">
   <provides>audio</provides>
 </extension>
 <extension point="xbmc.addon.metadata">
-  <summary>Jio Music</summary>
+  <summary>JioSaavn</summary>
   <description>Music for every moment. Millions of music tracks across various genres, moods, artists and languages. Right music for every moment!</description>
-  <disclaimer>This 3rd party addon is not in any way commissioned or endorsed by Jio</disclaimer>
+  <disclaimer>This 3rd party addon is not in any way commissioned or endorsed by JioSaavn</disclaimer>
+  <language></language>
+  <platform>all</platform>
+  <license>GPL-2.0</license>
+  <forum></forum>
+  <website>https://www.jiosaavn.com/</website>
+  <email>gujal at protonmail dot com</email>
   <news>
-[B]Version 0.5.2 - 26 Jun 2019[/B]
-- Add Haryanvi Language
+[B]Version 0.5.3 - 09 Mar 2020[/B]
+- Futurize to PY2/PY3 compatibility
+- Icon based on new logo
   </news>
   <assets>
     <icon>icon.png</icon>
