@@ -1,3 +1,7 @@
+[B]Version 0.3.3 - 11 Mar 2020[/B]
+- Add Gujarati, Marathi, Odia, Konkani and English News categories
+- PY2/3 compatibility
+
 [B]Version 0.3.2 - 22 Apr 2019[/B]
 - Add Bollywood Category
 - Fix Listings

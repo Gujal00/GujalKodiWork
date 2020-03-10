@@ -39,13 +39,14 @@ provider-name="gujal">
 </addon>
 
 <addon id="plugin.audio.radiosindia"
-version="0.3.2"
+version="0.3.3"
 name="Radios India"
 provider-name="gujal">
 <requires>
   <import addon="xbmc.python" version="2.20.0"/>
   <import addon="script.module.requests" version="2.4.3"/>
-  <import addon="script.module.beautifulsoup" version="3.2.1"/>
+  <import addon="script.module.beautifulsoup4" version="4.0.0"/>
+  <import addon="script.module.future" version="0.0.1"/>
 </requires>
 <extension point="xbmc.python.pluginsource" library="main.py">
   <provides>audio</provides>
@@ -55,9 +56,9 @@ provider-name="gujal">
 	<description>Radios India is a popular site to listen to Radio Stations from around India</description>
 	<disclaimer>This addon provides access to Radios India website and is not liable for any content hosted on that site</disclaimer>
   	<news>
-[B]Version 0.3.2 - 22 Apr 2019[/B]
-- Add Bollywood Category
-- Fix Listings
+[B]Version 0.3.3 - 11 Mar 2020[/B]
+- Add Gujarati, Marathi, Odia, Konkani and English News categories
+- PY2/3 compatibility
 	</news>
 	<assets>
 		<icon>icon.png</icon>
