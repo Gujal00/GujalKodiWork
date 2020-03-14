@@ -1,0 +1,23 @@
+[B]Version 1.1.7 - 10 Nov 2019[/B]
+- More Navigation fixes
+
+[B]Version 1.1.6 - 14 Oct 2019[/B]
+- Navigation fixes
+
+[B]Version 1.1.5 - 27 Mar 2019[/B]
+- Playback fix
+
+[B]Version 1.1.4 - 13 Dec 2018[/B]
+- Fallback to HLS when individual qualities are not available
+
+[B]Version 1.1.3 - 14 Oct 2018[/B]
+- Remove dependency on repository
+
+[B]Version 1.1.2 - 17 Aug 2018[/B]
+- Fallback to SD when no HD stream available
+
+[B]Version 1.0.1 - 09 Aug 2018[/B]
+- Bug fix on 'Next Page'
+
+[B]Version 1.0.0 - 07 Aug 2018[/B]
+- First release

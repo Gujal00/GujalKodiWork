@@ -1,3 +1,7 @@
+[B]Version 1.9[/B]
+- change to backto's streamlink module
+- change location
+
 [B]Version 1.8[/B]
 - Add libraries to Twilight0's streamlink module
 
