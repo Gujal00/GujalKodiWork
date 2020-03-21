@@ -70,7 +70,7 @@ provider-name="gujal">
 </extension>
 </addon>
 
-<addon id="plugin.video.deccandelight" version="1.9.4" name="Deccan Delight" provider-name="gujal">
+<addon id="plugin.video.deccandelight" version="1.9.5" name="Deccan Delight" provider-name="gujal">
 <requires>
   <import addon="xbmc.python" version="2.20.0"/>
   <import addon="script.module.requests" version="2.4.3"/>
@@ -91,8 +91,8 @@ DeccanDelight and its developers [B]DO NOT[/B] host, create, or distribute any o
 	<website>https://github.com/Gujal00/GujalKodiWork</website>
 	<disclaimer>DeccanDelight and its developers are not in any way affiliated with Kodi or any of the sites and providers used in the addon.</disclaimer>
 	<news>
-[B]Version 1.9.4 - 07 Jan 2020[/B]
-- missing file in previous release
+[B]Version 1.9.5 - 22 Mar 2020[/B]
+- Scraper fixes
 	</news>
 	<assets>
 		<icon>icon.png</icon>
