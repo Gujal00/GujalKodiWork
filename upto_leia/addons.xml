@@ -123,7 +123,7 @@ DeccanDelight and its developers [B]DO NOT[/B] host, create, or distribute any o
 
 <addon id="plugin.video.live.streamspro"
        name="LiveStreamsPro"
-       version="2.9.3"
+       version="2.9.4"
        provider-name="Shani">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
