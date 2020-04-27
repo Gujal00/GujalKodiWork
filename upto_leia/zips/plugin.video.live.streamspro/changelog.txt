@@ -1,4 +1,4 @@
-[B]Version 2.9.4[/B]
+[B]Version 2.9.5[/B]
 Changes by gujal
- - code cleanup
- - Added domparser2 library
+ - Fix regression error
+ - Added cloudscraper
