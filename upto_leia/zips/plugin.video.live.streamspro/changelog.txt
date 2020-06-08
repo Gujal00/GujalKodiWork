@@ -1,4 +1,5 @@
-[B]Version 2.9.5[/B]
-Changes by gujal
- - Fix regression error
- - Added cloudscraper
+[B]Version 2.9.6[/B]
+Changes by jairoxyz
+ - Added EPG Support
+ Check wiki for usage instructions
+ https://app-1536929174.000webhostapp.com/wiki/index.php?n=Functions.EPG

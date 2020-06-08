@@ -121,7 +121,7 @@ DeccanDelight and its developers [B]DO NOT[/B] host, create, or distribute any o
     </extension>
 </addon>
 
-<addon id="plugin.video.live.streamspro" name="LiveStreamsPro" version="2.9.5" provider-name="Shani">
+<addon id="plugin.video.live.streamspro" name="LiveStreamsPro" version="2.9.6" provider-name="Shani">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.beautifulsoup" version="3.2.1"/>
@@ -257,11 +257,10 @@ With over 35,000 hours of exciting content for audiences with varying choices an
 	</extension>
 </addon>
 
-<addon id="script.module.cloudscraper" name="CloudScraper2" version="1.2.34" provider-name="venomous">
+<addon id="script.module.cloudscraper" name="CloudScraper2" version="1.2.40" provider-name="venomous">
   <requires>
     <import addon="xbmc.python" version="2.26.0"/>
     <import addon="script.module.requests" />
-
   </requires>
   <extension point="xbmc.python.module" library="lib" />
   <extension point="xbmc.python.pluginsource" library="lib" />
