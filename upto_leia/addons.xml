@@ -70,7 +70,7 @@ provider-name="gujal">
 </extension>
 </addon>
 
-<addon id="plugin.video.deccandelight" version="1.9.6" name="Deccan Delight" provider-name="gujal">
+<addon id="plugin.video.deccandelight" version="1.9.7" name="Deccan Delight" provider-name="gujal">
 <requires>
   <import addon="xbmc.python" version="2.20.0"/>
   <import addon="script.module.requests" version="2.4.3"/>
@@ -91,8 +91,8 @@ DeccanDelight and its developers [B]DO NOT[/B] host, create, or distribute any o
 	<website>https://github.com/Gujal00/GujalKodiWork</website>
 	<disclaimer>DeccanDelight and its developers are not in any way affiliated with Kodi or any of the sites and providers used in the addon.</disclaimer>
 	<news>
-[B]Version 1.9.6 - 24 Mar 2020[/B]
-- Fix for unicode chars in Apne CDN Urls
+[B]Version 1.9.7 - 9 Jul 2020[/B]
+- Scraper Fixes
 	</news>
 	<assets>
 		<icon>icon.png</icon>
@@ -257,9 +257,9 @@ With over 35,000 hours of exciting content for audiences with varying choices an
 	</extension>
 </addon>
 
-<addon id="script.module.cloudscraper" name="CloudScraper2" version="1.2.40" provider-name="venomous">
+<addon id="script.module.cloudscraper" name="CloudScraper2" version="1.2.40.1" provider-name="venomous">
   <requires>
-    <import addon="xbmc.python" version="2.26.0"/>
+    <!-- <import addon="xbmc.python" version="3.0.0"/> -->
     <import addon="script.module.requests" />
   </requires>
   <extension point="xbmc.python.module" library="lib" />
