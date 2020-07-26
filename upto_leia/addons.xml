@@ -70,7 +70,7 @@ provider-name="gujal">
 </extension>
 </addon>
 
-<addon id="plugin.video.deccandelight" version="1.9.7" name="Deccan Delight" provider-name="gujal">
+<addon id="plugin.video.deccandelight" version="1.9.8" name="Deccan Delight" provider-name="gujal">
 <requires>
   <import addon="xbmc.python" version="2.20.0"/>
   <import addon="script.module.requests" version="2.4.3"/>
@@ -255,27 +255,6 @@ With over 35,000 hours of exciting content for audiences with varying choices an
 		<description>Gujal Addons Repository</description>
 		<platform>all</platform>
 	</extension>
-</addon>
-
-<addon id="script.module.cloudscraper" name="CloudScraper2" version="1.2.40.1" provider-name="venomous">
-  <requires>
-    <!-- <import addon="xbmc.python" version="3.0.0"/> -->
-    <import addon="script.module.requests" />
-  </requires>
-  <extension point="xbmc.python.module" library="lib" />
-  <extension point="xbmc.python.pluginsource" library="lib" />
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en_gb">cloudscraper</summary>
-    <description lang="en_gb">cloudscraper</description>
-    <disclaimer lang="en_gb"></disclaimer>
-    <language></language>
-    <platform>all</platform>
-    <license></license>
-    <forum></forum>
-    <website></website>
-    <email></email>
-    <source></source>
-  </extension>
 </addon>
 
 <addon id="script.module.slproxy" name="SLProxy" version="0.0.3" provider-name="devilsport">

@@ -1,2 +1,2 @@
-[B]Version 1.9.7 - 9 Jul 2020[/B]
-- Scraper Fixes
+[B]Version 1.9.8 - 27 July 2020[/B]
+- Einthusan ratelimit fix
