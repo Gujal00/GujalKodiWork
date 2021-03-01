@@ -234,13 +234,8 @@ With over 35,000 hours of exciting content for audiences with varying choices an
 </extension>
 </addon>
 
-<addon id="repository.gujal" name="Gujal Addon Repository" version="1.10" provider-name="Gujal">
+<addon id="repository.gujal" name="Gujal Addons Repository" version="2.0.0" provider-name="gujal">
 	<extension point="xbmc.addon.repository" name="Gujal Addons Repository">
-		<dir>
-			<info compressed="true">https://raw.githubusercontent.com/back-to/repo/master/addons.xml</info>
-			<checksum>https://raw.githubusercontent.com/back-to/repo/master/addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.githubusercontent.com/back-to/repo/master/</datadir>
-		</dir>
 		<dir>
 	        <info compressed="false">https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml</info>
 	        <checksum>https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml.md5</checksum>

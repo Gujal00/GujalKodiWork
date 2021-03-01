@@ -1,0 +1,23 @@
+[B]Version 0.3.5 - 01 Feb 2021[/B]
+- PY2/3 compatibility using six library
+
+[B]Version 0.3.3 - 11 Mar 2020[/B]
+- Add Gujarati, Marathi, Odia, Konkani and English News categories
+- PY2/3 compatibility
+
+[B]Version 0.3.2 - 22 Apr 2019[/B]
+- Add Bollywood Category
+- Fix Listings
+
+[B]Version 0.3.0 - 19 Jul 2018[/B]
+- Add option to disable unwanted languages
+- Add Infolabels
+
+[B]Version 0.2.0 - 31 Mar 2018[/B]
+- Tamil section fix
+
+[B]Version 0.1.1 - 14 Dec 2016[/B]
+- Bug fix
+
+[B]Version 0.1.0 - 11 Dec 2016[/B]
+- First release

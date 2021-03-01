@@ -70,7 +70,7 @@ provider-name="gujal">
 </extension>
 </addon>
 
-<addon id="repository.gujal" name="Gujal Addon Repository" version="1.9.1" provider-name="Gujal">
+<addon id="repository.gujal" name="Gujal Addons Repository" version="2.0.0" provider-name="gujal">
 	<extension point="xbmc.addon.repository" name="Gujal Addons Repository">
 		<info compressed="false">https://raw.github.com/Gujal00/GujalKodiWork/master/matrix_plus/addons.xml</info>
 		<checksum>https://raw.github.com/Gujal00/GujalKodiWork/master/matrix_plus/addons.xml.md5</checksum>

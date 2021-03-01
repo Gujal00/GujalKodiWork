@@ -1,0 +1,27 @@
+[B]Version 0.5.4 - 01 Feb 2021[/B]
+- use six for PY2/PY3 compatibility
+
+[B]Version 0.5.3 - 09 Mar 2020[/B]
+- Futurize to PY2/PY3 compatibility
+- Icon based on new logo
+
+[B]Version 0.5.2 - 26 Jun 2019[/B]
+- Add Haryanvi Language
+
+[B]Version 0.5.0 - 19 Jul 2018[/B]
+- Fix errors in Infolabels
+
+[B]Version 0.4.0 - 05 Jul 2018[/B]
+- Add Clear Cache Function
+- Enable other views for albums and songs
+
+[B]Version 0.3.0 - 12 Nov 2017[/B]
+- Add Search Function
+  Thanks to Vikas Kapadiya for API Endpoints documentation
+
+[B]Version 0.2.0 - 08 Nov 2017[/B]
+- Add Curated and Genre Playlists
+  Thanks to Vikas Kapadiya for API Endpoints documentation
+
+[B]Version 0.1.0 - 31 Oct 2017[/B]
+- First release

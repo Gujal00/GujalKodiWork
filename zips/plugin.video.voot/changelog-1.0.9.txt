@@ -1,0 +1,35 @@
+[B]Version 1.0.9 - 01 Feb 2021[/B]
+- Use six library for PY2/3 compatibility
+
+[B]Version 1.0.8 - 19 Jan 2020[/B]
+- Add Tamil, Telugu, Gujarati to movies section
+
+[B]Version 1.0.7 - 12 Oct 2019[/B]
+- Playback Fix
+
+[B]Version 1.0.6 - 27 Mar 2019[/B]
+- Parsing Fixes
+
+[B]Version 1.0.5 - 11 Dec 2018[/B]
+- API url change
+- Add Pagination
+
+[B]Version 1.0.4 - 14 Oct 2018[/B]
+- Remove repo dependancy
+
+[B]Version 1.0.3 - 19 Jul 2018[/B]
+- Bug fix when movies/episodes more than 50
+- season, episode and aired date indicators
+
+[B]Version 1.0.2 - 4 Jul 2018[/B]
+- Bug fix relating to error when empty content
+- Improve listing views
+- Force cache clear on addon update
+
+[B]Version 1.0.1 - 4 Jul 2018[/B]
+- Minor bug fix relating to erroneous data from site sometimes
+- Add number of available items to titles
+- Force Settings display on addon update
+
+[B]Version 1.0.0 - 3 Jul 2018[/B]
+- First release
