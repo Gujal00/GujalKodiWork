@@ -1,7 +1,7 @@
 # Kodi addons developed by gujal
 
 Latest repository zip file is
-[repository.gujal-2.0.0](https://github.com/Gujal00/GujalKodiWork/blob/master/zips/repository.gujal/repository.gujal-2.0.0.zip)
+[repository.gujal-2.0.0](https://github.com/Gujal00/GujalKodiWork/raw/master/zips/repository.gujal/repository.gujal-2.0.0.zip)
 <br>
 
 ### Disclaimer
