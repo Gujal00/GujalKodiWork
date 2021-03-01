@@ -1,10 +1,7 @@
 # Kodi addons developed by gujal
 
-Latest repository zip file for Kodi versions upto Leia is 
-[repository.gujal-1.10](https://github.com/Gujal00/GujalKodiWork/raw/master/upto_leia/zips/repository.gujal/repository.gujal-1.10.zip)
-<br>
-Latest repository zip file for Kodi versions from Matrix is 
-[repository.gujal-1.9.1](https://github.com/Gujal00/GujalKodiWork/raw/master/matrix_plus/zips/repository.gujal/repository.gujal-1.9.1.zip)
+Latest repository zip file is
+[repository.gujal-2.0.0](https://github.com/Gujal00/GujalKodiWork/blob/master/zips/repository.gujal/repository.gujal-2.0.0.zip)
 <br>
 
 ### Disclaimer
