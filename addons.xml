@@ -415,6 +415,33 @@ With over 35,000 hours of exciting content for audiences with varying choices an
   </extension>
 </addon>
 
+<addon id="service.subtitles.addic7ed"
+       name="Addic7ed.com"
+       version="7.1.2"
+       provider-name="gujal">
+    <requires>
+        <!-- <import addon="xbmc.python" version="3.0.0"/> -->
+        <import addon="script.module.six" />
+        <import addon="script.module.kodi-six" />
+        <import addon="script.module.requests" version="2.4.3"/>
+        <import addon="script.module.beautifulsoup4" version="4.0.0"/>
+    </requires>
+    <extension point="xbmc.subtitle.module"
+               library="service.py"/>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Get subtitles from Addic7ed.com</summary>
+        <description lang="en">Description for Addic7ed to come</description>
+        <disclaimer lang="en"/>
+        <platform>all</platform>
+        <language/>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+        <forum>http://forum.xbmc.org/showthread.php?tid=184854</forum>
+        <website/>
+        <email/>
+        <source>https://github.com/cflannagan/service.subtitles.addic7ed</source>
+    </extension>
+</addon>
+
 <addon id="service.subtitles.opensubtitles_by_opensubtitles"
        name="OpenSubtitles.org by OpenSubtitles"
        version="5.3.2"
