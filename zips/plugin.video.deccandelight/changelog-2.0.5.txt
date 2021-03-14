@@ -1,2 +1,0 @@
-[B]Version 2.0.5 - 03 Feb 2021[/B]
-- Add Cine vez scraper
