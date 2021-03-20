@@ -1,5 +1,0 @@
-[B]Version 2.9.7[/B]
-Changes by jairoxyz
- - Added SLProxy VOD Support
- Check wiki for usage instructions
-

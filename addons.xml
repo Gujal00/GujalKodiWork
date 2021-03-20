@@ -65,7 +65,7 @@
 </extension>
 </addon>
 
-<addon id="plugin.video.deccandelight" version="2.0.6" name="Deccan Delight" provider-name="gujal">
+<addon id="plugin.video.deccandelight" version="2.0.7" name="Deccan Delight" provider-name="gujal">
 <requires>
 	<import addon="script.module.six" />
 	<import addon="script.module.kodi-six" />
@@ -348,6 +348,29 @@ With over 35,000 hours of exciting content for audiences with varying choices an
     <assets>
       <icon>icon.png</icon>
     </assets>
+  </extension>
+</addon>
+
+<addon id="script.module.slproxy" name="SLProxy" version="0.3.8" provider-name="devilsport">
+  <requires>
+    <!-- comment out for py2/py3 compat <import addon="xbmc.python" version="3.0.0"/> -->
+    <import addon="script.module.requests"/>
+    <import addon="script.module.streamlink" version="1.5.0" />
+    <import addon="script.module.six" />
+  </requires>
+  <extension point="xbmc.python.module" library="lib/"/>
+  <extension point="xbmc.addon.metadata">
+    <summary>StreamLink Proxy DS</summary>
+    <description>Streamlink proxy for Kodi</description>
+    <platform>all</platform>
+    <license>Simplified BSD</license>
+    <source></source>
+    <language>en</language>
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+    <news>
+    </news>
   </extension>
 </addon>
 
