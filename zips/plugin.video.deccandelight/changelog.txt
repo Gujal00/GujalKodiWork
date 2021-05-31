@@ -1,5 +1,7 @@
-[B]Version 2.0.7 - 20 Mar 2021[/B]
-- Fix skyTamil listing
-- Add suntv serial and shows categories to skyTamil
-- Fix Tamilgun playback
-- Improve Einthusan CDN Auto selection
+[B]Version 2.0.8 - 31 May 2021[/B]
+- MoviesGhar - New site
+- Filmlinks4u - fix listing and add webseries
+- Filmlinks4u Pro - add Hindi and English series
+- Hindilinks4u - add Hindi Web series
+- Watch Online Movies - Fix Playback
+- Tamilgun, TamilYogi, Movierulz - Domain changed

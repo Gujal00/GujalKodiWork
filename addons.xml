@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.audio.jiomusic" version="0.5.4" name="JioSaavn" provider-name="gujal">
+<addon id="plugin.audio.jiomusic" version="0.5.5" name="JioSaavn" provider-name="gujal">
 <requires>
   <!-- <import addon="xbmc.python" version="2.20.0"/> -->
 	<import addon="script.module.six" />
@@ -19,12 +19,12 @@
   <platform>all</platform>
   <license>GPL-2.0</license>
   <forum></forum>
+  <broken>No Api access</broken>
   <website>https://www.jiosaavn.com/</website>
   <email>gujal at protonmail dot com</email>
   <news>
-[B]Version 0.5.4 - 01 Feb 2021[/B]
-- six for PY2/PY3 compatibility
-- Icon based on new logo
+[B]Version 0.5.5 - 23 Apr 2021[/B]
+- JioMusic Api endpoint retired
   </news>
   <assets>
     <icon>icon.png</icon>
@@ -65,7 +65,7 @@
 </extension>
 </addon>
 
-<addon id="plugin.video.deccandelight" version="2.0.7" name="Deccan Delight" provider-name="gujal">
+<addon id="plugin.video.deccandelight" version="2.0.8" name="Deccan Delight" provider-name="gujal">
 <requires>
 	<import addon="script.module.six" />
 	<import addon="script.module.kodi-six" />
@@ -242,25 +242,6 @@ With over 35,000 hours of exciting content for audiences with varying choices an
 	</extension>
 </addon>
 
-<addon id="script.module.beautifulsoup4" name="BeautifulSoup4" version="4.9.3" provider-name="Leonard Richardson (leonardr@segfault.org)">
-	<requires>
-		<import addon="xbmc.python" version="2.26.0"/>
-		<import addon="script.module.soupsieve" version="1.9.6"/>
-	</requires>
-	<extension point="xbmc.python.module" library="lib" />
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en_GB">Screen-scraping library</summary>
-		<description lang="en_GB">Beautiful Soup is a library that makes it easy to scrape information from web pages. It sits atop an HTML or XML parser, providing Pythonic idioms for iterating, searching, and modifying the parse tree.</description>
-		<license>MIT</license>
-		<platform>all</platform>
-		<website>https://www.crummy.com/software/BeautifulSoup/</website>
-		<source>https://code.launchpad.net/beautifulsoup</source>
-		<assets>
-			<icon>icon.png</icon>
-		</assets>
-	</extension>
-</addon>
-
 <addon id="script.module.iso3166" name="ISO 3166 Library" version="0.9" provider-name="back-to">
   <requires>
     <import addon="xbmc.python" version="2.24.0"/>
@@ -351,11 +332,11 @@ With over 35,000 hours of exciting content for audiences with varying choices an
   </extension>
 </addon>
 
-<addon id="script.module.slproxy" name="SLProxy" version="0.3.8" provider-name="devilsport">
+<addon id="script.module.slproxy" name="SLProxy" version="0.4.0" provider-name="devilsport">
   <requires>
     <!-- comment out for py2/py3 compat <import addon="xbmc.python" version="3.0.0"/> -->
     <import addon="script.module.requests"/>
-    <import addon="script.module.streamlink" version="1.5.0" />
+    <import addon="script.module.streamlink" version="1.7.0" />
     <import addon="script.module.six" />
   </requires>
   <extension point="xbmc.python.module" library="lib/"/>
@@ -372,23 +353,6 @@ With over 35,000 hours of exciting content for audiences with varying choices an
     <news>
     </news>
   </extension>
-</addon>
-
-<addon id="script.module.soupsieve" name="Soup Sieve" version="1.9.6" provider-name="Isaac Muse">
-	<requires>
-		<import addon="xbmc.python" version="2.26.0"/>
-	</requires>
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en_GB">A CSS selector library</summary>
-		<description lang="en_GB">Soup Sieve is a CSS selector library designed to be used with Beautiful Soup 4. It aims to provide selecting, matching, and filtering using modern CSS selectors.</description>
-		<license>MIT</license>
-		<platform>all</platform>
-		<website>https://pypi.org/project/soupsieve/</website>
-		<source>https://github.com/facelessuser/soupsieve</source>
-		<assets>
-			<icon>icon.png</icon>
-		</assets>
-	</extension>
 </addon>
 
 <addon id="script.module.streamlink" name="Streamlink Library" version="1.7.0" provider-name="jairox">
