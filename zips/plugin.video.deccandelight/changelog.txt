@@ -1,7 +1,3 @@
-[B]Version 2.0.8 - 31 May 2021[/B]
-- MoviesGhar - New site
-- Filmlinks4u - fix listing and add webseries
-- Filmlinks4u Pro - add Hindi and English series
-- Hindilinks4u - add Hindi Web series
-- Watch Online Movies - Fix Playback
-- Tamilgun, TamilYogi, Movierulz - Domain changed
+[B]Version 2.0.9 - 12 June 2021[/B]
+- Hindilinks4u - Handle unicode names in Webseries
+- TamilYogi - Add Webseries section
