@@ -1,3 +1,8 @@
-[B]Version 2.0.9 - 12 June 2021[/B]
-- Hindilinks4u - Handle unicode names in Webseries
-- TamilYogi - Add Webseries section
+[B]Version 2.0.10 - 19 July 2021[/B]
+- skytamil - Handle multiple sources
+- Online Movies Gold - Fix listing
+- cinevez - Domain change
+- movierulz - Domain change
+- manatv - Changed to https
+- wompk - Domain change
+- moviesghar - Domain change
