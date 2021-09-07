@@ -65,7 +65,7 @@
 </extension>
 </addon>
 
-<addon id="plugin.video.deccandelight" version="2.0.10" name="Deccan Delight" provider-name="gujal">
+<addon id="plugin.video.deccandelight" version="2.0.11" name="Deccan Delight" provider-name="gujal">
 <requires>
 	<import addon="script.module.six" />
 	<import addon="script.module.kodi-six" />
@@ -73,6 +73,9 @@
 	<import addon="script.module.beautifulsoup4" version="4.0.0"/>
 	<import addon="script.module.resolveurl" version="5.1.0"/>
 	<import addon="script.common.plugin.cache" version="2.5.5"/>
+	<import addon="script.module.metahandler" version="5.0.0"/>
+	<import addon="plugin.video.youtube" optional="true" />
+	<import addon="plugin.video.imdb.trailers" optional="true" />
 </requires>
 <extension point="xbmc.python.pluginsource" library="main.py">
   	<provides>video</provides>
@@ -298,6 +301,37 @@ With over 35,000 hours of exciting content for audiences with varying choices an
   </extension>
 </addon>
 
+<addon id="script.module.metahandler" name="metahandler" version="5.0.1" provider-name="Eldorado">
+	<requires>
+		<import addon="script.module.six" version="1.14.0" />
+		<import addon="script.module.kodi-six"/>
+		<import addon="script.module.myconnpy" version="8.0.18" />
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.python.pluginsource" library="lib/default.py" />
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en">Downloads Artwork for TV shows, Movies and Music videos for addons and stores them in a local SQLITE database</summary>
+		<description lang="en">Queries, stores, and returns metadata for TV shows, Movies and Musicvideos. [CR]Sources:[CR]www.thetvdb.com[CR]www.themoviedb.org[CR]www.imdb.com[CR]www.omdbapi.com[CR]This product uses the TMDb API but is not endorsed or certified by TMDb.</description>
+		<disclaimer lang="en"></disclaimer>
+		<language></language>
+		<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+		<forum></forum>
+		<website></website>
+		<email></email>
+		<source></source>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart></fanart>
+			<screenshot></screenshot>
+		</assets>
+		<news>
+[B]Version 5.0.1[/B]
+- Fixed settings.xml version preventing setting UI from showing in Kodi under Matrix
+		</news>
+	</extension>
+</addon>
+
 <addon id="script.module.shutil_get_terminal_size" name="shutil_get_terminal_size library" version="1.0.0" provider-name="back-to">
   <requires>
     <import addon="xbmc.python" version="2.24.0"/>
@@ -332,7 +366,7 @@ With over 35,000 hours of exciting content for audiences with varying choices an
   </extension>
 </addon>
 
-<addon id="script.module.slproxy" name="SLProxy" version="0.4.0" provider-name="devilsport">
+<addon id="script.module.slproxy" name="SLProxy" version="0.4.2" provider-name="devilsport">
   <requires>
     <!-- comment out for py2/py3 compat <import addon="xbmc.python" version="3.0.0"/> -->
     <import addon="script.module.requests"/>

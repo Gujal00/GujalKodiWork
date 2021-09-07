@@ -1,8 +1,4 @@
-[B]Version 2.0.10 - 19 July 2021[/B]
-- skytamil - Handle multiple sources
-- Online Movies Gold - Fix listing
-- cinevez - Domain change
-- movierulz - Domain change
-- manatv - Changed to https
-- wompk - Domain change
-- moviesghar - Domain change
+[B]Version 2.0.11 - 7 September 2021[/B]
+- MetaData for movies, Enable in Settings
+- tamildhool fix playback
+- movierulz domain change
