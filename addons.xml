@@ -301,11 +301,11 @@ With over 35,000 hours of exciting content for audiences with varying choices an
   </extension>
 </addon>
 
-<addon id="script.module.metahandler" name="metahandler" version="5.0.1" provider-name="Eldorado">
+<addon id="script.module.metahandler" name="metahandler" version="5.0.2~beta1" provider-name="Eldorado">
 	<requires>
-		<import addon="script.module.six" version="1.14.0" />
+		<import addon="script.module.six"/>
 		<import addon="script.module.kodi-six"/>
-		<import addon="script.module.myconnpy" version="8.0.18" />
+		<import addon="script.module.myconnpy"/>
 	</requires>
 	<extension point="xbmc.python.module" library="lib" />
 	<extension point="xbmc.python.pluginsource" library="lib/default.py" />
