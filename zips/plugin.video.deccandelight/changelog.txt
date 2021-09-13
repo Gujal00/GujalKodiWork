@@ -1,4 +1,3 @@
-[B]Version 2.0.11 - 7 September 2021[/B]
-- MetaData for movies, Enable in Settings
-- tamildhool fix playback
-- movierulz domain change
+[B]Version 2.0.12 - 13 September 2021[/B]
+- MetaData support for Leia
+- Add Information context menu
