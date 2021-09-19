@@ -1,3 +1,2 @@
-[B]Version 2.0.12 - 13 September 2021[/B]
-- MetaData support for Leia
-- Add Information context menu
+[B]Version 2.0.13 - 19 September 2021[/B]
+- Fix tamilgun scraper
