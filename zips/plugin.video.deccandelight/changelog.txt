@@ -1,2 +1,4 @@
-[B]Version 2.0.13 - 19 September 2021[/B]
+[B]Version 2.0.14 - 9 October 2021[/B]
 - Fix tamilgun scraper
+- fix Python 3.9 comtability
+- Domain changes for various scrapers
