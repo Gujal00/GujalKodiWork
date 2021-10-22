@@ -1,3 +1,6 @@
+[B]Version 5.0.2[/B]
+- PY2/3 compatible code to provide compatibility with Leia and Matrix
+
 [B]Version 5.0.1[/B]
 - Fixed settings.xml version preventing setting UI from showing in Kodiunder Matrix
 

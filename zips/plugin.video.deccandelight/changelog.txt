@@ -1,4 +1,4 @@
-[B]Version 2.0.14 - 9 October 2021[/B]
-- Fix tamilgun scraper
-- fix Python 3.9 comtability
-- Domain changes for various scrapers
+[B]Version 2.0.15 - 22 October 2021[/B]
+- update tamilgun scraper
+- Add tamilhdbox
+
