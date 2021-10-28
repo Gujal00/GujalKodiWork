@@ -1,4 +1,5 @@
-[B]Version 2.0.15 - 22 October 2021[/B]
+[B]Version 2.0.16 - 28 October 2021[/B]
 - update tamilgun scraper
-- Add tamilhdbox
-
+- movierulz domain change
+- Online movie pk domain change
+- cinevez domain change
