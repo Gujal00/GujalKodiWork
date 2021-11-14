@@ -367,9 +367,9 @@ With over 35,000 hours of exciting content for audiences with varying choices an
   </extension>
 </addon>
 
-<addon id="script.module.slproxy" name="SLProxy" version="0.4.3" provider-name="devilsport">
+<addon id="script.module.slproxy" name="SLProxy" version="0.4.4" provider-name="devilsport">
   <requires>
-    <!-- comment out for py2/py3 compat <import addon="xbmc.python" version="3.0.0"/> -->
+    <!-- <import addon="xbmc.python" version="2.24.0"/> -->
     <import addon="script.module.requests"/>
     <import addon="script.module.streamlink" version="1.7.0" />
     <import addon="script.module.six" />
@@ -439,10 +439,10 @@ With over 35,000 hours of exciting content for audiences with varying choices an
 
 <addon id="service.subtitles.addic7ed"
        name="Addic7ed.com"
-       version="7.1.2"
+       version="7.1.3"
        provider-name="gujal">
     <requires>
-        <!-- <import addon="xbmc.python" version="3.0.0"/> -->
+        <!-- <import addon="xbmc.python" version="2.24.0"/> -->
         <import addon="script.module.six" />
         <import addon="script.module.kodi-six" />
         <import addon="script.module.requests" version="2.4.3"/>
