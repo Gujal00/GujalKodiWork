@@ -1,5 +1,11 @@
-[B]Version 2.0.16 - 28 October 2021[/B]
-- update tamilgun scraper
+[B]Version 2.0.17 - 25 December 2021[/B]
+- tamilgun domain change
 - movierulz domain change
 - Online movie pk domain change
 - cinevez domain change
+- playdesi domain change
+- moviesghar domain change
+- tamilian domain change
+- arydigital playback fix
+- watchapne playback fix
+- tamilhdbox playback fix
