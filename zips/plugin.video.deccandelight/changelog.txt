@@ -1,9 +1,3 @@
-[B]Version 2.0.18 - 12 March 2022[/B]
-- BB Ultimate in tamildhool fix
-- movierulz domain change
-- Online movie pk domain change
-- cinevez domain change
-- filmlink4u pro domain change
-- moviesghar domain change
-- tamilian domain change
-- Remove Bharat Movies
+[B]Version 2.0.19 - 13 March 2022[/B]
+- Fix regression error in v2.0.18 with Einthusan
+- Scrape new stream source in tamilgun
