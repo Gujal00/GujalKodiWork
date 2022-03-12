@@ -1,11 +1,9 @@
-[B]Version 2.0.17 - 25 December 2021[/B]
-- tamilgun domain change
+[B]Version 2.0.18 - 12 March 2022[/B]
+- BB Ultimate in tamildhool fix
 - movierulz domain change
 - Online movie pk domain change
 - cinevez domain change
-- playdesi domain change
+- filmlink4u pro domain change
 - moviesghar domain change
 - tamilian domain change
-- arydigital playback fix
-- watchapne playback fix
-- tamilhdbox playback fix
+- Remove Bharat Movies
