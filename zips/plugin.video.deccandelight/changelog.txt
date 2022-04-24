@@ -1,3 +1,12 @@
-[B]Version 2.0.19 - 13 March 2022[/B]
-- Fix regression error in v2.0.18 with Einthusan
-- Scrape new stream source in tamilgun
+[B]Version 2.0.20 - 25 Apr 2022[/B]
+- Scrapers Added:
+    - ibomma
+ 
+- Scrapers Fixed/Updated:
+    - cinevez
+    - flimlinks4u pro
+    - moviesghar
+    - movierulz
+    - skytamil
+    - tamilgun
+    - watchmoviespk
