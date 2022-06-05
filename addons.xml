@@ -65,7 +65,7 @@
 </extension>
 </addon>
 
-<addon id="plugin.video.deccandelight" version="2.0.20" name="Deccan Delight" provider-name="gujal">
+<addon id="plugin.video.deccandelight" version="2.0.21" name="Deccan Delight" provider-name="gujal">
 <requires>
 	<import addon="script.module.six" />
 	<import addon="script.module.kodi-six" />
@@ -466,7 +466,7 @@ With over 35,000 hours of exciting content for audiences with varying choices an
 
 <addon id="service.subtitles.opensubtitles_by_opensubtitles"
        name="OpenSubtitles.org by OpenSubtitles"
-       version="5.3.2"
+       version="5.3.3"
        provider-name="amet, opensubtitles, gujal">
   <requires>
     <!-- <import addon="xbmc.python" version="3.0.0"/> -->
