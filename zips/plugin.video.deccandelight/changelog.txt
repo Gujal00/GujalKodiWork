@@ -1,14 +1,8 @@
-[B]Version 2.0.22 - 20 Jul 2022[/B]
+[B]Version 2.0.23 - 12 Aug 2022[/B]
 - Scrapers Added:
     - None
  
 - Scrapers Fixed/Updated:
     - cinevez
-    - flimlinks4u pro
-    - hum
-    - moviesghar
     - movierulz
-    - online movies gold
-    - tamilgun
-    - tamilian
-    - tormalayalam
+    - tamilyogi
