@@ -1,8 +1,11 @@
-[B]Version 2.0.24 - 26 Aug 2022[/B]
+[B]Version 2.0.25 - 11 Sep 2022[/B]
 - Scrapers Added:
-    - apnetv
+    - none
  
 - Scrapers Fixed/Updated:
-    - einthusan
-    - skytamil
-    - watchapne
+    - apnetv
+    - filmlinks4u
+    - ibomma
+    - movierulz
+    - tamilgun
+    - tamilyogi
