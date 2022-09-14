@@ -1,11 +1,9 @@
-[B]Version 2.0.25 - 11 Sep 2022[/B]
+[B]Version 2.0.26 - 14 Sep 2022[/B]
+- Base Code Changes
+    - fix caching database failure in Kodi 18
+
 - Scrapers Added:
     - none
  
 - Scrapers Fixed/Updated:
-    - apnetv
-    - filmlinks4u
-    - ibomma
-    - movierulz
-    - tamilgun
-    - tamilyogi
+    - none
