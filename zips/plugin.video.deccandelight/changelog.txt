@@ -1,9 +1,11 @@
-[B]Version 2.0.26 - 14 Sep 2022[/B]
+[B]Version 2.0.27 - 04 Oct 2022[/B]
 - Base Code Changes
-    - fix caching database failure in Kodi 18
+    - None
 
 - Scrapers Added:
-    - none
+    - Serial Ghar
  
 - Scrapers Fixed/Updated:
-    - none
+    - Cine Vez
+    - Movie Rulz
+    - Tamil Yogi
