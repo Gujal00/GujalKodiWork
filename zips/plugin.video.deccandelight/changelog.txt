@@ -1,11 +1,12 @@
-[B]Version 2.0.27 - 04 Oct 2022[/B]
+[B]Version 2.0.29 - 12 Oct 2022[/B]
 - Base Code Changes
     - None
 
 - Scrapers Added:
-    - Serial Ghar
+    - None
  
 - Scrapers Fixed/Updated:
-    - Cine Vez
-    - Movie Rulz
-    - Tamil Yogi
+    - skytamil ddosguard fix
+
+- Scrapers Removed:
+    - None
