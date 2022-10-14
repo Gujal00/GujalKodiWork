@@ -65,11 +65,12 @@
 </extension>
 </addon>
 
-<addon id="plugin.video.deccandelight" version="2.0.29" name="Deccan Delight" provider-name="gujal">
+<addon id="plugin.video.deccandelight" version="2.0.30" name="Deccan Delight" provider-name="gujal">
 <requires>
 	<import addon="script.module.six" />
 	<import addon="script.module.kodi-six" />
 	<import addon="script.module.beautifulsoup4" version="4.0.0"/>
+	<import addon="script.module.html5lib" />
 	<import addon="script.module.resolveurl" version="5.1.0"/>
 	<import addon="script.common.plugin.cache" version="2.5.5"/>
 	<import addon="script.module.metahandler" version="5.0.0"/>

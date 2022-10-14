@@ -1,12 +1,12 @@
-[B]Version 2.0.29 - 12 Oct 2022[/B]
+[B]Version 2.0.30 - 14 Oct 2022[/B]
 - Base Code Changes
     - None
 
 - Scrapers Added:
-    - None
+    - desitelugu
  
 - Scrapers Fixed/Updated:
-    - skytamil ddosguard fix
+    - manatelugu
 
 - Scrapers Removed:
     - None
