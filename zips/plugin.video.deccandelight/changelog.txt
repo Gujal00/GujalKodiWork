@@ -1,12 +1,12 @@
-[B]Version 2.0.30 - 14 Oct 2022[/B]
+[B]Version 2.0.31 - 18 Oct 2022[/B]
 - Base Code Changes
     - None
 
 - Scrapers Added:
-    - desitelugu
+    - None
  
 - Scrapers Fixed/Updated:
-    - manatelugu
+    - skytamil - Bigg Boss Tamil and Telugu in Main Menu
 
 - Scrapers Removed:
     - None
