@@ -1,4 +1,4 @@
-[B]Version 2.0.31 - 18 Oct 2022[/B]
+[B]Version 2.0.32 - 29 Oct 2022[/B]
 - Base Code Changes
     - None
 
@@ -6,7 +6,10 @@
     - None
  
 - Scrapers Fixed/Updated:
-    - skytamil - Bigg Boss Tamil and Telugu in Main Menu
+    - cinevez
+    - movierulz
+    - tamilgun
+    - tamilyogi
 
 - Scrapers Removed:
     - None
