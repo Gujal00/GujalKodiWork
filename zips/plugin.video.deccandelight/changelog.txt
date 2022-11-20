@@ -1,16 +1,13 @@
-[B]Version 2.0.33 - 16 Nov 2022[/B]
+[B]Version 2.0.34 - 20 Nov 2022[/B]
 - Base Code Changes
     - None
 
 - Scrapers Added:
-    - todayPk
+    - desiserials
  
 - Scrapers Fixed/Updated:
-    - hindilink4u
     - movierulz
-    - tamilgun
     - tamilyogi
 
 - Scrapers Removed:
-    - b2t
-    - omg
+    - None
