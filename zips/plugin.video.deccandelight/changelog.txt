@@ -1,13 +1,15 @@
-[B]Version 2.0.34 - 20 Nov 2022[/B]
+[B]Version 2.0.35 - 03 Dec 2022[/B]
 - Base Code Changes
     - None
 
 - Scrapers Added:
-    - desiserials
+    - None
  
 - Scrapers Fixed/Updated:
+    - bolly2tolly
+    - filmlinks4u
     - movierulz
-    - tamilyogi
+    - tormalayalam
 
 - Scrapers Removed:
     - None
