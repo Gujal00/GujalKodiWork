@@ -1,15 +1,12 @@
-[B]Version 2.0.35 - 03 Dec 2022[/B]
+[B]Version 2.0.36 - 07 Dec 2022[/B]
 - Base Code Changes
-    - None
+    - Koid 18.x compatibility
 
 - Scrapers Added:
     - None
  
 - Scrapers Fixed/Updated:
-    - bolly2tolly
-    - filmlinks4u
-    - movierulz
-    - tormalayalam
+    - None
 
 - Scrapers Removed:
     - None
