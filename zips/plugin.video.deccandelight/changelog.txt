@@ -1,12 +1,22 @@
-[B]Version 2.0.36 - 07 Dec 2022[/B]
+[B]Version 2.0.37 - 06 Feb 2023[/B]
 - Base Code Changes
-    - Koid 18.x compatibility
+    - None
 
 - Scrapers Added:
     - None
  
 - Scrapers Fixed/Updated:
-    - None
+    - apnetv
+    - cinevez
+    - filmlinks4u
+    - hindilinks4u
+    - movierulz
+    - playdesi
+    - tamilgun
+    - tamilhdbox
+    - tamilyogi
+    - todaypk
+    - watchapne
 
 - Scrapers Removed:
     - None
