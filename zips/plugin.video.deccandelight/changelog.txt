@@ -1,9 +1,9 @@
-[B]Version 2.0.37 - 06 Feb 2023[/B]
+[B]Version 2.0.38 - 06 Jun 2023[/B]
 - Base Code Changes
     - None
 
 - Scrapers Added:
-    - None
+    - desicinemas
  
 - Scrapers Fixed/Updated:
     - apnetv
@@ -20,3 +20,9 @@
 
 - Scrapers Removed:
     - None
+
+- Still Broken
+    - Tamildhool
+    - skytamil
+    - apnetv
+    - humtv
