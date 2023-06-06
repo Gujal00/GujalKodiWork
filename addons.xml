@@ -227,7 +227,7 @@ With over 35,000 hours of exciting content for audiences with varying choices an
 </extension>
 </addon>
 
-<addon id="repository.gujal" name="Gujal Addons Repository" version="2.0.2" provider-name="gujal">
+<addon id="repository.gujal" name="Gujal Addons Repository" version="2.0.3" provider-name="gujal">
 	<extension point="xbmc.addon.repository" name="Gujal Addons Repository">
 		<dir>
 	        <info compressed="false">https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml</info>
@@ -240,9 +240,9 @@ With over 35,000 hours of exciting content for audiences with varying choices an
 			<datadir zip="true">https://raw.github.com/Gujal00/GujalKodiWork/master/zips/</datadir>
 		</dir>
         <dir>
-            <info compressed="false">https://raw.githubusercontent.com/Goldenfreddy0703/repository.hooty/master/repo/zips/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/Goldenfreddy0703/repository.hooty/master/repo/zips/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/Goldenfreddy0703/repository.hooty/master/repo/zips/</datadir>
+            <info compressed="false">https://raw.githubusercontent.com/Goldenfreddy0703/repository.otaku/master/repo/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/Goldenfreddy0703/repository.otaku/master/repo/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/Goldenfreddy0703/repository.otaku/master/repo/zips/</datadir>
         </dir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
