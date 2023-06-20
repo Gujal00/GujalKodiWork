@@ -1,28 +1,14 @@
-[B]Version 2.0.38 - 06 Jun 2023[/B]
+[B]Version 2.0.39 - 20 Jun 2023[/B]
 - Base Code Changes
     - None
 
 - Scrapers Added:
-    - desicinemas
+    - None
  
 - Scrapers Fixed/Updated:
     - apnetv
-    - cinevez
-    - filmlinks4u
-    - hindilinks4u
+    - desiserials
     - movierulz
-    - playdesi
-    - tamilgun
-    - tamilhdbox
-    - tamilyogi
-    - todaypk
-    - watchapne
 
 - Scrapers Removed:
     - None
-
-- Still Broken
-    - Tamildhool
-    - skytamil
-    - apnetv
-    - humtv
