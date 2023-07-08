@@ -1,4 +1,4 @@
-[B]Version 2.0.39 - 20 Jun 2023[/B]
+[B]Version 2.0.40 - 08 Jul 2023[/B]
 - Base Code Changes
     - None
 
@@ -6,9 +6,10 @@
     - None
  
 - Scrapers Fixed/Updated:
-    - apnetv
-    - desiserials
     - movierulz
+    - tamilgun
+    - tamilyogi
+    - tamilhdbox
 
 - Scrapers Removed:
     - None
