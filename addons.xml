@@ -65,7 +65,7 @@
 </extension>
 </addon>
 
-<addon id="plugin.video.deccandelight" version="2.0.40" name="Deccan Delight" provider-name="gujal">
+<addon id="plugin.video.deccandelight" version="2.0.41" name="Deccan Delight" provider-name="gujal">
 <requires>
 	<import addon="script.module.six" />
 	<import addon="script.module.kodi-six" />
@@ -95,6 +95,7 @@ DeccanDelight and its developers [B]DO NOT[/B] host, create, or distribute any o
 		<screenshot>resources/images/screenshot-02.jpg</screenshot>
 		<screenshot>resources/images/screenshot-03.jpg</screenshot>
 	</assets>
+	<reuselanguageinvoker>false</reuselanguageinvoker>
 </extension>
 </addon>
 
@@ -377,7 +378,7 @@ With over 35,000 hours of exciting content for audiences with varying choices an
   </extension>
 </addon>
 
-<addon id="script.module.slproxy" name="SLProxy" version="0.4.6" provider-name="devilsport">
+<addon id="script.module.slproxy" name="SLProxy" version="0.4.7" provider-name="devilsport">
   <requires>
     <!-- <import addon="xbmc.python" version="2.24.0"/> -->
     <import addon="script.module.requests"/>
