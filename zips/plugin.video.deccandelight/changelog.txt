@@ -1,28 +1,15 @@
-[B]Version 2.0.41 - 30 Sep 2023[/B]
+[B]Version 2.0.42 - 1 Oct 2023[/B]
 - Base Code Changes
     - None
 
 - Scrapers Added:
-    - gomovies
+    - moviehax
  
 - Scrapers Fixed/Updated:
-    - apnetv
-    - arydigital
-    - cinevez
-    - flimlinks4u
-    - geetmala
-    - geo
-    - hindilinks4u
-    - hum
-    - ibomma
-    - manatelugu
-    - movierulz
-    - serialghar
     - tamilgun
-    - tamilyogi
 
 - Scrapers Removed:
-    - desitelugu
+    - None
 
 - Broken Scrapers
     - tamildhool
