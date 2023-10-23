@@ -1,12 +1,18 @@
-[B]Version 2.0.42 - 1 Oct 2023[/B]
+[B]Version 2.0.43 - 23 Oct 2023[/B]
 - Base Code Changes
     - None
 
 - Scrapers Added:
-    - moviehax
+    - None
  
 - Scrapers Fixed/Updated:
+    - filmlinks4u
+    - gomovies
+    - filmkinks4u pro
+    - ibomma
     - tamilgun
+    - tamilyogi
+    - watchonlinemovies
 
 - Scrapers Removed:
     - None
@@ -14,3 +20,5 @@
 - Broken Scrapers
     - tamildhool
     - skytamil
+    - tamiltvshows
+    - tamilhdbox
