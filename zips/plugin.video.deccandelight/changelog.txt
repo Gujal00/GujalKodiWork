@@ -1,18 +1,22 @@
-[B]Version 2.0.43 - 23 Oct 2023[/B]
+[B]Version 2.0.44 - 20 Nov 2023[/B]
 - Base Code Changes
-    - None
+    - Flaresolverr support
+    - remove metahandler dependency
+    - remove common plugin cache dependency
+    - inbuilt tmdb metascraper
 
 - Scrapers Added:
     - None
  
 - Scrapers Fixed/Updated:
-    - filmlinks4u
+    - apnetv
     - gomovies
     - filmkinks4u pro
     - ibomma
+    - movierulz
+    - tamilian
     - tamilgun
     - tamilyogi
-    - watchonlinemovies
 
 - Scrapers Removed:
     - None
