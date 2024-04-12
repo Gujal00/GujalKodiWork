@@ -65,7 +65,7 @@
 </extension>
 </addon>
 
-<addon id="plugin.video.deccandelight" version="2.0.46" name="Deccan Delight" provider-name="gujal">
+<addon id="plugin.video.deccandelight" version="2.0.47" name="Deccan Delight" provider-name="gujal">
 <requires>
 	<import addon="script.module.six" />
 	<import addon="script.module.kodi-six" />
@@ -80,12 +80,10 @@
 </extension>
 <extension point="xbmc.addon.metadata">
 	<summary>Entertainment from the Deccan region of India</summary>
-	<description>This addon provides access to entertainment in various Deccan languages such as Tamil, Telugu, Malayalam, Kannada, and Hindi
-DeccanDelight is and always will be free and open-source. None of its code and resources may be sold or redistributed for any commercial purposes.
-DeccanDelight and its developers [B]DO NOT[/B] host, create, or distribute any of the content displayed in the addon, it simply scrapes ad financed public websites.</description>
+	<description>This addon provides access to entertainment in various Deccan languages such as Tamil, Telugu, Malayalam, Kannada, and Hindi[CR]DeccanDelight is and always will be free and open-source. None of its code and resources may be sold or redistributed for any commercial purposes.[CR]DeccanDelight and its developers [B]DO NOT[/B] host, create, or distribute any of the content displayed in the addon, it simply scrapes ad financed public websites.</description>
 	<platform>all</platform>
 	<website>https://github.com/Gujal00/GujalKodiWork</website>
-	<disclaimer>DeccanDelight and its developers are not in any way affiliated with Kodi or any of the sites and providers used in the addon.</disclaimer>
+	<disclaimer>DeccanDelight and its developers are not in any way affiliated with Kodi or any of the sites used in the addon.</disclaimer>
 	<assets>
 		<icon>icon.png</icon>
 		<fanart>fanart.jpg</fanart>

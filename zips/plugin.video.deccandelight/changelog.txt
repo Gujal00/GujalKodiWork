@@ -1,4 +1,4 @@
-[B]Version 2.0.46 - 23 Mar 2024[/B]
+[B]Version 2.0.47 - 13 Apr 2024[/B]
 - Base Code Changes
     - None
 
@@ -6,23 +6,15 @@
     - None
  
 - Scrapers Fixed/Updated:
-    - cinevez
-    - filmlinkspro
+    - einthusan
+    - filmlinks
     - gomovies
-    - hum
-    - ibomma
-    - moviehax
     - movierulz
-    - playdesi
-    - tamilgun
     - tamilian
     - tamilyogi
-    - todaypk
-    - watchonlinemovies
 
 - Scrapers Removed:
-    - tamilhdbox
-    - omg
+    - None
 
 - Broken Scrapers
     - apnetv (cloudflare captcha)
