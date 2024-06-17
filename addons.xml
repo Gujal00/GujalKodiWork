@@ -1,41 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.audio.jiomusic" version="0.5.5" name="JioSaavn" provider-name="gujal">
-<requires>
-  <!-- <import addon="xbmc.python" version="2.20.0"/> -->
-	<import addon="script.module.six" />
-	<import addon="script.module.kodi-six" />
-  <import addon="script.module.requests" version="2.4.3"/>
-  <import addon="script.common.plugin.cache" version="2.5.5"/>
-</requires>
-<extension point="xbmc.python.pluginsource" library="main.py">
-  <provides>audio</provides>
-</extension>
-<extension point="xbmc.addon.metadata">
-  <summary>JioSaavn</summary>
-  <description>Music for every moment. Millions of music tracks across various genres, moods, artists and languages. Right music for every moment!</description>
-  <disclaimer>This 3rd party addon is not in any way commissioned or endorsed by JioSaavn</disclaimer>
-  <language></language>
-  <platform>all</platform>
-  <license>GPL-2.0</license>
-  <forum></forum>
-  <broken>No Api access</broken>
-  <website>https://www.jiosaavn.com/</website>
-  <email>gujal at protonmail dot com</email>
-  <news>
-[B]Version 0.5.5 - 23 Apr 2021[/B]
-- JioMusic Api endpoint retired
-  </news>
-  <assets>
-    <icon>icon.png</icon>
-    <fanart>fanart.jpg</fanart>
-    <screenshot>resources/screenshot-01.jpg</screenshot>
-    <screenshot>resources/screenshot-02.jpg</screenshot>
-    <screenshot>resources/screenshot-03.jpg</screenshot>
-  </assets>
-</extension>
-</addon>
-
 <addon id="plugin.audio.radiosindia" version="0.3.5" name="Radios India" provider-name="gujal">
 <requires>
   <!-- <import addon="xbmc.python" version="2.20.0"/> -->
@@ -156,72 +120,6 @@
     </description>
     <platform>all</platform>
   </extension>
-</addon>
-
-<addon id="plugin.video.sonyliv"
-version="1.1.7"
-name="SonyLIV"
-provider-name="gujal">
-<requires>
-	<import addon="xbmc.python" version="2.25.0"/>
-	<import addon="script.module.requests" version="2.4.3"/>
-	<import addon="script.common.plugin.cache" version="2.5.5"/>
-</requires>
-<extension point="xbmc.python.pluginsource" library="main.py">
-	<provides>video</provides>
-</extension>
-<extension point="xbmc.addon.metadata">
-	<summary>SonyLIV is a one stop destination for Audio/Video content from Sony Pictures Networks</summary>
-	<description>SonyLIV is the first premium Video on Demand (VOD) service by Sony Pictures Networks India Private Limited (SPN), providing multi-screen engagement to users on all devices.
-Launched in January 2013, it enables users to discover 20 years of rich content from the network channels of Sony Pictures Networks India Private Limited.
-	</description>
-	<platform>all</platform>
-	<website>https://www.sonyliv.com/</website>
-	<disclaimer>This 3rd party addon is not in any way commissioned or endorsed by Sony Pictures Networks India Pvt. Ltd.</disclaimer>
-	<news>
-[B]Version 1.1.7 - 10 Nov 2019[/B]
-- More Navigation fixes
-	</news>
-	<assets>
-		<icon>icon.png</icon>
-		<fanart>fanart.jpg</fanart>
-		<screenshot>resources/screenshot-01.jpg</screenshot>
-		<screenshot>resources/screenshot-02.jpg</screenshot>
-		<screenshot>resources/screenshot-03.jpg</screenshot>
-	</assets>
-</extension>
-</addon>
-
-<addon id="plugin.video.voot" version="1.0.9" name="Voot" provider-name="gujal">
-<requires>
-	<!-- <import addon="xbmc.python" version="2.24.0"/> -->
-	<import addon="script.module.six" />
-	<import addon="script.module.kodi-six" />
-	<import addon="script.module.requests" version="2.4.3"/>
-	<import addon="script.common.plugin.cache" version="2.5.5"/>
-</requires>
-<extension point="xbmc.python.pluginsource" library="default.py">
-	<provides>video</provides>
-</extension>
-<extension point="xbmc.addon.metadata">
-	<summary>VOOT - Watch Free Online TV Shows, Movies, Kids Shows HD Quality on VOOT. Keep Vooting.</summary>
-	<description>Voot is a video on-demand platform, part of Viacom 18 Digital Ventures, the digital arm of Viacom 18 - one of the country’s largest growing media networks.
-With over 35,000 hours of exciting content for audiences with varying choices and preferences, covering Colors (Hindi), MTV, Nickelodeon, Viacom18 Motion Pictures, Colors Kannada, Colors Marathi, Colors Bangla, Colors Super and Colors Gujarati, Voot offers the biggest TV Shows, Blockbuster Movies, your favorite Toons &amp; Voot Originals, absolutely Free.</description>
-	<platform>all</platform>
-	<website>https://www.voot.com/</website>
-	<disclaimer>This 3rd party addon is not in any way commissioned or endorsed by Viacom 18</disclaimer>
-	<news>
-[B]Version 1.0.9 - 01 Feb 2021[/B]
-- Use six library for PY2/3 compatibility
-	</news>
-	<assets>
-		<icon>icon.png</icon>
-		<fanart>fanart.jpg</fanart>
-		<screenshot>resources/screenshot-01.jpg</screenshot>
-		<screenshot>resources/screenshot-02.jpg</screenshot>
-		<screenshot>resources/screenshot-03.jpg</screenshot>
-	</assets>
-</extension>
 </addon>
 
 <addon id="repository.gujal" name="Gujal Addons Repository" version="2.0.3" provider-name="gujal">
@@ -518,7 +416,7 @@ v5.3.2 (2020-09-30)
 
 <addon id="service.subtitles.subscene"
        name="Subscene.com"
-       version="2.1.4"
+       version="2.1.5"
        provider-name="gujal">
     <requires>
         <!-- <import addon="xbmc.python" version="3.0.0"/> -->

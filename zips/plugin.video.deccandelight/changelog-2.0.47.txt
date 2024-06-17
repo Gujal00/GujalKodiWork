@@ -1,0 +1,24 @@
+[B]Version 2.0.47 - 13 Apr 2024[/B]
+- Base Code Changes
+    - None
+
+- Scrapers Added:
+    - None
+ 
+- Scrapers Fixed/Updated:
+    - einthusan
+    - filmlinks
+    - gomovies
+    - movierulz
+    - tamilian
+    - tamilyogi
+
+- Scrapers Removed:
+    - None
+
+- Broken Scrapers
+    - apnetv (cloudflare captcha)
+    - watchapne (cloudflare captcha)
+    - tamildhool
+    - skytamil
+    - tamiltvshows
