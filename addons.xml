@@ -240,7 +240,7 @@
   </extension>
 </addon>
 
-<addon id="script.module.slproxy" name="SLProxy" version="0.4.7" provider-name="devilsport">
+<addon id="script.module.slproxy" name="SLProxy" version="0.4.8" provider-name="devilsport">
   <requires>
     <!-- <import addon="xbmc.python" version="2.24.0"/> -->
     <import addon="script.module.requests"/>
@@ -312,7 +312,7 @@
 
 <addon id="service.subtitles.addic7ed"
        name="Addic7ed.com"
-       version="7.1.3"
+       version="7.1.4"
        provider-name="gujal">
     <requires>
         <!-- <import addon="xbmc.python" version="2.24.0"/> -->
