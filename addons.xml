@@ -29,7 +29,7 @@
 </extension>
 </addon>
 
-<addon id="plugin.video.deccandelight" version="2.0.50" name="Deccan Delight" provider-name="gujal">
+<addon id="plugin.video.deccandelight" version="2.0.51" name="Deccan Delight" provider-name="gujal">
 <requires>
 	<import addon="script.module.six" />
 	<import addon="script.module.kodi-six" />
