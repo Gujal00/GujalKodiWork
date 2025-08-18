@@ -1,4 +1,4 @@
-[B]Version 2.0.54 - 27 Apr 2025[/B]
+[B]Version 2.0.56 - 18 Aug 2025[/B]
 - Base Code Changes
     - None
 
@@ -6,21 +6,16 @@
     - None
  
 - Scrapers Fixed/Updated:
-    - cinevez
-    - desicine
-    - desitashan
-    - flimlinks4u
+    - ary
     - gomovies
+    - hindi geetmala
     - ibomma
     - moviehax
     - movierulz
-    - todaypk
     - tamilyogi
 
 - Scrapers Removed:
-    - bolly2tolly
-    - tormalayalam
-    - manatelugu
+    - None
 
 - Broken Scrapers
     - apnetv (cloudflare captcha)
@@ -28,5 +23,4 @@
     - tamildhool
     - skytamil
     - tamiltvshows
-    - ary
     - serialghar

@@ -1,4 +1,4 @@
-[B]Version 2.0.55 - 29 Jun 2025[/B]
+[B]Version 2.0.56 - 18 Aug 2025[/B]
 - Base Code Changes
     - None
 
@@ -6,15 +6,13 @@
     - None
  
 - Scrapers Fixed/Updated:
-    - desicine
-    - desiserials
+    - ary
     - gomovies
+    - hindi geetmala
     - ibomma
     - moviehax
     - movierulz
-    - playdesi
     - tamilyogi
-    - yodesi
 
 - Scrapers Removed:
     - None
@@ -25,5 +23,4 @@
     - tamildhool
     - skytamil
     - tamiltvshows
-    - ary
     - serialghar
