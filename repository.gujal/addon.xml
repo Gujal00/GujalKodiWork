@@ -2,14 +2,14 @@
 <addon id="repository.gujal" name="Gujal Addons Repository" version="2.0.3" provider-name="gujal">
 	<extension point="xbmc.addon.repository" name="Gujal Addons Repository">
 		<dir>
-	        <info compressed="false">https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml</info>
-	        <checksum>https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml.md5</checksum>
-	        <datadir zip="true">https://raw.githubusercontent.com/Gujal00/smrzips/master/zips/</datadir>
+	        <info compressed="false">https://raw.githubusercontent.com/JaisimhaSeelam/smrzips/master/addons.xml</info>
+	        <checksum>https://raw.githubusercontent.com/JaisimhaSeelam/smrzips/master/addons.xml.md5</checksum>
+	        <datadir zip="true">https://raw.githubusercontent.com/JaisimhaSeelam/smrzips/master/zips/</datadir>
 		</dir>
 		<dir>
-			<info compressed="false">https://raw.github.com/Gujal00/GujalKodiWork/master/addons.xml</info>
-			<checksum>https://raw.github.com/Gujal00/GujalKodiWork/master/addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.github.com/Gujal00/GujalKodiWork/master/zips/</datadir>
+			<info compressed="false">https://raw.github.com/JaisimhaSeelam/GujalKodiWork/master/addons.xml</info>
+			<checksum>https://raw.github.com/JaisimhaSeelam/GujalKodiWork/master/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.github.com/JaisimhaSeelam/GujalKodiWork/master/zips/</datadir>
 		</dir>
         <dir>
             <info compressed="false">https://raw.githubusercontent.com/Goldenfreddy0703/repository.otaku/master/repo/zips/addons.xml</info>

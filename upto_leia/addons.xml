@@ -88,7 +88,7 @@ provider-name="gujal">
 DeccanDelight is and always will be free and open-source. None of its code and resources may be sold or redistributed for any commercial purposes.
 DeccanDelight and its developers [B]DO NOT[/B] host, create, or distribute any of the content displayed in the addon, it simply scrapes ad financed public websites.</description>
 	<platform>all</platform>
-	<website>https://github.com/Gujal00/GujalKodiWork</website>
+	<website>https://github.com/JaisimhaSeelam/GujalKodiWork</website>
 	<disclaimer>DeccanDelight and its developers are not in any way affiliated with Kodi or any of the sites and providers used in the addon.</disclaimer>
 	<news>
 [B]Version 1.9.10 - 07 Oct 2020[/B]
@@ -237,13 +237,13 @@ With over 35,000 hours of exciting content for audiences with varying choices an
 <addon id="repository.gujal" name="Gujal Addons Repository" version="2.0.0" provider-name="gujal">
 	<extension point="xbmc.addon.repository" name="Gujal Addons Repository">
 		<dir>
-	        <info compressed="false">https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml</info>
-	        <checksum>https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml.md5</checksum>
-	        <datadir zip="true">https://raw.githubusercontent.com/Gujal00/smrzips/master/zips/</datadir>
+	        <info compressed="false">https://raw.githubusercontent.com/JaisimhaSeelam/smrzips/master/addons.xml</info>
+	        <checksum>https://raw.githubusercontent.com/JaisimhaSeelam/smrzips/master/addons.xml.md5</checksum>
+	        <datadir zip="true">https://raw.githubusercontent.com/JaisimhaSeelam/smrzips/master/zips/</datadir>
 		</dir>
-		<info compressed="false">https://raw.github.com/Gujal00/GujalKodiWork/master/upto_leia/addons.xml</info>
-		<checksum>https://raw.github.com/Gujal00/GujalKodiWork/master/upto_leia/addons.xml.md5</checksum>
-		<datadir zip="true">https://raw.github.com/Gujal00/GujalKodiWork/master/upto_leia/zips</datadir>
+		<info compressed="false">https://raw.github.com/JaisimhaSeelam/GujalKodiWork/master/upto_leia/addons.xml</info>
+		<checksum>https://raw.github.com/JaisimhaSeelam/GujalKodiWork/master/upto_leia/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.github.com/JaisimhaSeelam/GujalKodiWork/master/upto_leia/zips</datadir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary>Third party Addons for Kodi</summary>
