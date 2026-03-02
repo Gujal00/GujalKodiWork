@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<settings>
+	<category label="General">
+		<setting type="lsep" label="Cache Control" />
+		<setting label="Clear Cache" type="action" id="clear_cache" action="RunPlugin(plugin://plugin.video.deccandelight/?action=0)"/>
+		<setting label="Cache Timeout in hours" type="number" id="timeout" default="6"/> 
+		<setting type="lsep" label="Download Location" />
+		<setting id="dlfolder" type="folder" label="Download Folder" default=""/>
+		<setting type="lsep" label="Meta Data" />
+		<setting id="meta" type="bool" label="Display Metadata for Movies" default="false"/>
+		<setting label="Clear MetaCache" type="action" id="clear_mcache" visible="eq(-1,true)" enable="!eq(-1,)" action="RunPlugin(plugin://plugin.video.deccandelight/?action=11)"/>
+		<setting type="lsep" label="Cloudflare Solver" />
+		<setting id="fs_enable" visible="eq(3,false)" type="bool" label="Enable Flaresolverr" default="false" />
+		<setting id="fs_url" visible="eq(-1,true)" enable="eq(-1,true)" type="text" label="Flaresolverr url" default="http://localhost:8191/v1"/>
+		<setting id="fs_timeout" visible="eq(-2,true)" enable="eq(-2,true)" type="slider" label="Flaresolverr Timeout" default="60" range="30,30,180" option="int" />
+		<setting id="cs_enable" visible="eq(-3,false)" type="bool" label="Enable CF-clearance-scraper" default="false" />
+		<setting id="cs_url" visible="eq(-1,true)" enable="eq(-1,true)" type="text" label="CF-clearance-scraper URL" default="http://localhost:3001" />
+		<setting type="lsep" label="Mirror sites" />
+		<setting id="mirror" type="bool" label="Use Mirror sites for India" default="false"/>
+	</category>
+	<category label="Tamil Scrapers">
+		<setting id="tgun" type="bool" label="Tamil Gun" default="true"/>
+		<setting id="tamilian" type="bool" label="Tamilian" default="true"/>
+		<setting id="tyogi" type="bool" label="Tamil Yogi" default="true"/>
+		<setting id="thdbox" type="bool" label="Tamil HD Box" default="true"/>
+		<setting id="ttvshow" type="bool" label="Tamil TV Show" default="true"/>
+		<setting id="skytamil" type="bool" label="sky Tamil" default="true"/>
+		<setting id="tdhool" type="bool" label="Tamil Dhool" default="true"/>
+	</category>
+	<category label="Telugu Scrapers">
+		<setting id="dtelugu" type="bool" label="DesiTelugu" default="true"/>
+		<setting id="manatv" type="bool" label="Mana Telugu TV" default="true"/>
+	</category> 
+	<category label="Malayalam Scrapers">
+		<setting id="torm" type="bool" label="TOR Malayalam" default="true"/>
+	</category>
+	<category label="Hindi Scrapers">
+		<setting id="hlinks" type="bool" label="Hindi Links 4 U" default="true"/>
+		<setting id="moviehax" type="bool" label="Movie Hax" default="true"/>
+		<setting id="apnetv" type="bool" label="Apne TV" default="true"/>
+		<setting id="desiseri" type="bool" label="Desi Serials" default="true"/>
+		<setting id="desit" type="bool" label="Desi Tashan" default="true"/>
+		<setting id="gmala" type="bool" label="Hindi Geetmala" default="true"/>
+		<setting id="pdesi" type="bool" label="Play Desi" default="true"/>
+		<setting id="sghar" type="bool" label="Serial Ghar" default="true"/>
+		<setting id="wapne" type="bool" label="Watch Apne" default="true"/>
+		<setting id="yodesi" type="bool" label="Yo Desi" default="true"/>
+	</category>
+	<category label="Urdu Scrapers">
+		<setting id="ary" type="bool" label="Ary Digital" default="true"/>
+		<setting id="geo" type="bool" label="Geo TV" default="true"/>
+		<setting id="hum" type="bool" label="Hum TV" default="true"/>
+	</category>
+	<category label="Multi Language Scrapers">
+		<setting id="b2t" type="bool" label="Bolly 2 Tolly" default="true"/>
+		<setting id="cinevez" type="bool" label="Cine Vez" default="true"/>
+		<setting id="dcine" type="bool" label="Desi Cinemas" default="true"/>
+		<setting id="einthusan" type="bool" label="Einthusan" default="true"/>
+		<setting id="flinks" type="bool" label="FilmLinks 4 U" default="true"/>
+		<setting id="gomovies" type="bool" label="Go Movies" default="true"/>
+		<setting id="hflinks" type="bool" label="Film Links 4 U (Pro)" default="true"/>
+		<setting id="ibomma" type="bool" label="iBOMMA" default="true"/>
+		<setting id="mrulz" type="bool" label="Movie Rulez" default="true"/>
+		<setting id="mrulzfree" type="bool" label="Movie Rulez Free" default="true"/>
+		<setting id="mghar" type="bool" label="Movies Ghar" default="true"/>
+		<!-- <setting id="omg" type="bool" label="Online Movies Gold" default="true"/> -->
+		<setting id="wompk" type="bool" label="Online Movies PK" default="true"/>
+		<setting id="todaypk" type="bool" label="TodayPk" default="true"/>
+	</category>
+	<category label="Miscellaneous">
+		<setting label="Mature Content" type="lsep"/>
+		<setting label="Enable Mature content" type="bool" id="adult" default="false"/>
+	</category>	
+</settings>

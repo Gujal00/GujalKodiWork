@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="plugin.video.deccandelight" version="2.0.57" name="Deccan Delight" provider-name="gujal">
+<requires>
+	<import addon="script.module.six" />
+	<import addon="script.module.kodi-six" />
+	<import addon="script.module.beautifulsoup4" version="4.0.0"/>
+	<import addon="script.module.html5lib" />
+	<import addon="script.module.resolveurl" version="5.1.0"/>
+	<import addon="plugin.video.youtube" optional="true" />
+	<import addon="plugin.video.imdb.trailers" optional="true" />
+</requires>
+<extension point="xbmc.python.pluginsource" library="main.py">
+  	<provides>video</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+	<summary>Entertainment from the Deccan region of India</summary>
+	<description>This addon provides access to entertainment in various Deccan languages such as Tamil, Telugu, Malayalam, Kannada, and Hindi[CR]DeccanDelight is and always will be free and open-source. None of its code and resources may be sold or redistributed for any commercial purposes.[CR]DeccanDelight and its developers [B]DO NOT[/B] host, create, or distribute any of the content displayed in the addon, it simply scrapes ad financed public websites.</description>
+	<platform>all</platform>
+	<website>https://github.com/JaisimhaSeelam/GujalKodiWork</website>
+	<disclaimer>DeccanDelight and its developers are not in any way affiliated with Kodi or any of the sites used in the addon.</disclaimer>
+	<assets>
+		<icon>icon.png</icon>
+		<fanart>fanart.jpg</fanart>
+		<screenshot>resources/images/screenshot-01.jpg</screenshot>
+		<screenshot>resources/images/screenshot-02.jpg</screenshot>
+		<screenshot>resources/images/screenshot-03.jpg</screenshot>
+	</assets>
+	<reuselanguageinvoker>false</reuselanguageinvoker>
+</extension>
+</addon>

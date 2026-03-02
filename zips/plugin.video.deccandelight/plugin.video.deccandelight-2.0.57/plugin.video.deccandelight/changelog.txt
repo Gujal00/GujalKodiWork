@@ -1,0 +1,30 @@
+[B]Version 2.0.56 - 14 Oct 2025[/B]
+- Base Code Changes
+    - None
+
+- Scrapers Added:
+    - None
+ 
+- Scrapers Fixed/Updated:
+    - desicine
+    - filmlinks4u
+    - filmlinks4u pro
+    - gomovies
+    - hindilinks4u
+    - hum
+    - ibomma
+    - moviehax
+    - movierulz
+    - tamildhool
+    - tamilgun
+    - tamilyogi
+
+- Scrapers Removed:
+    - None
+
+- Broken Scrapers
+    - apnetv (cloudflare captcha)
+    - watchapne (cloudflare captcha)
+    - skytamil
+    - tamiltvshows
+    - serialghar
