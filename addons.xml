@@ -29,7 +29,7 @@
 </extension>
 </addon>
 
-<addon id="plugin.video.deccandelight" version="2.0.57" name="Deccan Delight" provider-name="gujal">
+<addon id="plugin.video.deccandelight" version="2.0.58" name="Deccan Delight" provider-name="gujal">
 <requires>
 	<import addon="script.module.six" />
 	<import addon="script.module.kodi-six" />
@@ -240,11 +240,11 @@
   </extension>
 </addon>
 
-<addon id="script.module.slproxy" name="SLProxy" version="0.5.0" provider-name="devilsport">
+<addon id="script.module.slproxy" name="SLProxy" version="1.0.0" provider-name="devilsport">
   <requires>
     <!-- <import addon="xbmc.python" version="2.24.0"/> -->
     <import addon="script.module.requests"/>
-    <import addon="script.module.streamlink" version="1.7.0" />
+    <import addon="script.module.streamlink" version="2.3.0" />
     <import addon="script.module.six" />
   </requires>
   <extension point="xbmc.python.module" library="lib/"/>
