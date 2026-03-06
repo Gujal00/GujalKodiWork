@@ -11,7 +11,7 @@ from bs4 import BeautifulSoup, SoupStrainer
 
 def test_mrulz_endpoint():
     """Test if mrulz endpoint is reachable and has expected structure"""
-    url = 'https://www.5movierulz.travel/category/tamil-movie/'
+    url = 'https://www.5movierulz.claims/category/tamil-movie/'
     
     print("\n" + "="*60)
     print("Testing Movie Rulz Scraper")

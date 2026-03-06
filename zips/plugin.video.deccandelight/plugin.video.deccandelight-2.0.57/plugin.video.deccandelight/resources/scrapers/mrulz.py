@@ -26,7 +26,9 @@ from six.moves import urllib_parse
 class mrulz(Scraper):
     def __init__(self):
         Scraper.__init__(self)
-        self.bu = 'https://www.5movierulz.travel/category/'
+        # Read domain from settings, with fallback to default
+        domain = self.settings('mrulz_domain') or 'https://www.5movierulz.claims'
+        self.bu = domain + '/category/'
         self.icon = self.ipath + 'mrulz.png'
         self.list = {'01Tamil Movies': self.bu + 'tamil-movie/',
                      '02Telugu Movies': self.bu + 'telugu-movie/',

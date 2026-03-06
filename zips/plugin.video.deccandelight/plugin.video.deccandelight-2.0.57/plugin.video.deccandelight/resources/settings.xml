@@ -67,6 +67,9 @@
 		<setting id="wompk" type="bool" label="Online Movies PK" default="true"/>
 		<setting id="todaypk" type="bool" label="TodayPk" default="true"/>
 	</category>
+	<category label="Movie Rulz Settings">
+		<setting id="mrulz_domain" type="text" label="Movie Rulz Domain" default="https://www.5movierulz.claims"/>
+	</category>
 	<category label="Miscellaneous">
 		<setting label="Mature Content" type="lsep"/>
 		<setting label="Enable Mature content" type="bool" id="adult" default="false"/>
