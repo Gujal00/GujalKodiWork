@@ -17,10 +17,21 @@ along with this program. If not, see <http://www.gnu.org/licenses/>.
 '''
 import json
 import re
+import time
 from bs4 import BeautifulSoup, SoupStrainer
 from resources.lib import client
 from resources.lib.base import Scraper
 from six.moves import urllib_parse
+
+# Try to import Selenium for SSL/WAF bypass
+try:
+    from selenium import webdriver
+    from selenium.webdriver.chrome.options import Options
+    from selenium.webdriver.chrome.service import Service
+    from webdriver_manager.chrome import ChromeDriverManager
+    SELENIUM_AVAILABLE = True
+except ImportError:
+    SELENIUM_AVAILABLE = False
 
 
 class mrulz(Scraper):
@@ -45,6 +56,50 @@ class mrulz(Scraper):
                      '42[COLOR cyan]Adult 18+[/COLOR]': self.bu + 'adult-18/',
                      '99[COLOR yellow]** Search **[/COLOR]': self.bu[:-9] + '?s='}
 
+    def _fetch_html_with_selenium(self, url):
+        """
+        Fetch HTML using Selenium headless browser to bypass SSL/WAF blocks
+        Returns HTML content or None if Selenium fails
+        """
+        try:
+            if not SELENIUM_AVAILABLE:
+                return None
+            
+            chrome_options = Options()
+            chrome_options.add_argument('--headless=new')
+            chrome_options.add_argument('--no-sandbox')
+            chrome_options.add_argument('--disable-dev-shm-usage')
+            chrome_options.add_argument('--disable-gpu')
+            chrome_options.add_argument('--window-size=1920,1080')
+            chrome_options.add_argument('user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36')
+            
+            service = Service(ChromeDriverManager().install())
+            driver = webdriver.Chrome(service=service, options=chrome_options)
+            
+            try:
+                driver.get(url)
+                time.sleep(2)  # Wait for content to load
+                html = driver.page_source
+                return html
+            finally:
+                driver.quit()
+        except Exception as e:
+            # Silently fail - will fall back to requests
+            return None
+
+    def _get_html(self, url):
+        """
+        Fetch HTML with automatic fallback: tries Selenium first, then requests
+        This helps bypass SSL/WAF issues on Movie Rulz endpoints
+        """
+        # Try Selenium if available
+        html = self._fetch_html_with_selenium(url)
+        if html:
+            return html
+        
+        # Fall back to standard requests if Selenium isn't available or failed
+        return client.request(url, headers=self.hdr)
+
     def get_menu(self):
         return (self.list, 7, self.icon)
 
@@ -55,7 +110,7 @@ class mrulz(Scraper):
             search_text = urllib_parse.quote_plus(search_text)
             url = url + search_text
 
-        html = client.request(url, headers=self.hdr)
+        html = self._get_html(url)
         mlink = SoupStrainer('div', {'id': 'content'})
         mdiv = BeautifulSoup(html, "html.parser", parse_only=mlink)
         plink = SoupStrainer('nav', {'id': 'posts-nav'})
@@ -87,7 +142,7 @@ class mrulz(Scraper):
     def get_videos(self, url):
         videos = []
 
-        html = client.request(url, headers=self.hdr)
+        html = self._get_html(url)
         mlink = SoupStrainer('div', {'class': 'entry-content'})
         videoclass = BeautifulSoup(html, "html.parser", parse_only=mlink)
 

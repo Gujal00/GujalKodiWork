@@ -1,33 +1,57 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 """
-Diagnostic script to inspect current HTML structure of mrulz website
+Diagnostic script to inspect Movie Rulz website using Selenium
 Helps identify the correct CSS selectors for scraping
+Uses Selenium for headless browser automation to bypass SSL/WAF blocks
 """
 
-import requests
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.chrome.options import Options
+from webdriver_manager.chrome import ChromeDriverManager
+from selenium.webdriver.chrome.service import Service
 from bs4 import BeautifulSoup
+import time
 
 
 def diagnose_mrulz_structure():
-    """Inspect the actual HTML structure of the website"""
+    """Inspect the HTML structure of the website using Selenium"""
     url = 'https://www.5movierulz.travel/category/tamil-movie/'
     
     print("\n" + "="*70)
-    print("Diagnosing Movie Rulz Website Structure")
+    print("Diagnosing Movie Rulz Website Structure (Selenium)")
     print("="*70)
     print(f"URL: {url}\n")
     
+    driver = None
     try:
-        response = requests.get(url, timeout=10, headers={
-            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
-        })
-        response.raise_for_status()
+        # Setup Chrome options
+        print("[1] Initializing headless browser...")
+        chrome_options = Options()
+        chrome_options.add_argument('--headless=new')
+        chrome_options.add_argument('--no-sandbox')
+        chrome_options.add_argument('--disable-dev-shm-usage')
+        chrome_options.add_argument('--disable-gpu')
+        chrome_options.add_argument('--window-size=1920,1080')
+        chrome_options.add_argument('user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36')
         
-        soup = BeautifulSoup(response.text, "html.parser")
+        service = Service(ChromeDriverManager().install())
+        driver = webdriver.Chrome(service=service, options=chrome_options)
+        print("✓ Browser initialized\n")
+        
+        # Navigate to page
+        print("[2] Loading webpage...")
+        driver.get(url)
+        time.sleep(3)  # Wait for content to load
+        print("✓ Page loaded\n")
+        
+        # Parse HTML with BeautifulSoup
+        soup = BeautifulSoup(driver.page_source, "html.parser")
         
         # Try common container selectors
-        print("[1] Looking for common container selectors...\n")
+        print("[3] Looking for common container selectors...\n")
         
         containers = [
             ('div[id="container"]', soup.find('div', {'id': 'container'})),
@@ -45,7 +69,7 @@ def diagnose_mrulz_structure():
                 print(f"✗ Not found: {selector}")
         
         # Try common item selectors
-        print("\n[2] Looking for movie item selectors...\n")
+        print("\n[4] Looking for movie item selectors...\n")
         
         item_selectors = [
             ('div.boxed.film', soup.find_all('div', {'class': 'boxed film'})),
@@ -53,20 +77,17 @@ def diagnose_mrulz_structure():
             ('article', soup.find_all('article')),
             ('div.post', soup.find_all('div', {'class': 'post'})),
             ('div.movie', soup.find_all('div', {'class': 'movie'})),
-            ('li', soup.find_all('li')[:5]),  # Sample first 5
+            ('li', soup.find_all('li')[:5]),
         ]
         
         for selector, items in item_selectors:
             if items:
                 print(f"✓ Found {len(items)} items with: {selector}")
-                # Show first item structure
                 if items[0]:
                     print(f"  Sample HTML: {str(items[0])[:150]}...")
-                    # Check for links
                     link = items[0].find('a')
                     if link:
                         print(f"  Link found: href={link.get('href')}")
-                    # Check for images
                     img = items[0].find('img')
                     if img:
                         print(f"  Image found: src={img.get('src')}")
@@ -74,10 +95,9 @@ def diagnose_mrulz_structure():
                 print(f"✗ Not found: {selector}")
         
         # Show actual page structure
-        print("\n[3] Page structure summary:\n")
+        print("\n[5] Page structure summary:\n")
         body = soup.find('body')
         if body:
-            # Get main divs in body
             main_divs = body.find_all('div', recursive=False)
             print(f"Direct div children in body: {len(main_divs)}")
             for i, div in enumerate(main_divs[:3]):
@@ -92,12 +112,13 @@ def diagnose_mrulz_structure():
         
         return True
             
-    except requests.exceptions.RequestException as e:
+    except Exception as e:
         print(f"✗ Error: {str(e)}")
         return False
-    except Exception as e:
-        print(f"✗ Parse error: {str(e)}")
-        return False
+    finally:
+        if driver:
+            driver.quit()
+            print("\n✓ Browser closed")
 
 
 if __name__ == '__main__':
