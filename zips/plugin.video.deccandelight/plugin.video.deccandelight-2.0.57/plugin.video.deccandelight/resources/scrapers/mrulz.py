@@ -17,21 +17,18 @@ along with this program. If not, see <http://www.gnu.org/licenses/>.
 '''
 import json
 import re
-import time
+import ssl
 from bs4 import BeautifulSoup, SoupStrainer
 from resources.lib import client
 from resources.lib.base import Scraper
 from six.moves import urllib_parse
 
-# Try to import Selenium for SSL/WAF bypass
+# Try to disable SSL warnings (not critical if fails)
 try:
-    from selenium import webdriver
-    from selenium.webdriver.chrome.options import Options
-    from selenium.webdriver.chrome.service import Service
-    from webdriver_manager.chrome import ChromeDriverManager
-    SELENIUM_AVAILABLE = True
-except ImportError:
-    SELENIUM_AVAILABLE = False
+    import urllib3
+    urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
+except:
+    pass
 
 
 class mrulz(Scraper):
@@ -56,49 +53,64 @@ class mrulz(Scraper):
                      '42[COLOR cyan]Adult 18+[/COLOR]': self.bu + 'adult-18/',
                      '99[COLOR yellow]** Search **[/COLOR]': self.bu[:-9] + '?s='}
 
-    def _fetch_html_with_selenium(self, url):
+    def _fetch_html_with_retry(self, url):
         """
-        Fetch HTML using Selenium headless browser to bypass SSL/WAF blocks
-        Returns HTML content or None if Selenium fails
+        Fetch HTML with retries and enhanced headers for SSL/WAF bypass
+        Works on both desktop and Android Kodi
         """
+        # Enhanced user agents to match real browsers
+        user_agents = [
+            'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Brave/1.73',
+            'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+            'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
+        ]
+        
+        headers = self.hdr.copy() if self.hdr else {}
+        
+        # Set best user agent and browser headers
+        headers['User-Agent'] = user_agents[0]
+        headers['Accept'] = 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+        headers['Accept-Language'] = 'en-US,en;q=0.5'
+        headers['Accept-Encoding'] = 'gzip, deflate'
+        headers['DNT'] = '1'
+        headers['Connection'] = 'keep-alive'
+        headers['Upgrade-Insecure-Requests'] = '1'
+        
+        # Try with SSL verification disabled (works with Kodi's client module)
         try:
-            if not SELENIUM_AVAILABLE:
-                return None
-            
-            chrome_options = Options()
-            chrome_options.add_argument('--headless=new')
-            chrome_options.add_argument('--no-sandbox')
-            chrome_options.add_argument('--disable-dev-shm-usage')
-            chrome_options.add_argument('--disable-gpu')
-            chrome_options.add_argument('--window-size=1920,1080')
-            chrome_options.add_argument('user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36')
-            
-            service = Service(ChromeDriverManager().install())
-            driver = webdriver.Chrome(service=service, options=chrome_options)
-            
-            try:
-                driver.get(url)
-                time.sleep(2)  # Wait for content to load
-                html = driver.page_source
+            html = client.request(url, headers=headers, verify=False)
+            if html and len(html) > 100:
                 return html
-            finally:
-                driver.quit()
-        except Exception as e:
-            # Silently fail - will fall back to requests
-            return None
+        except:
+            pass
+        
+        try:
+            # Try with verifypeer header (alternative for Kodi)
+            headers['verifypeer'] = 'false'
+            html = client.request(url, headers=headers)
+            if html and len(html) > 100:
+                return html
+        except:
+            pass
+        
+        # Final fallback - try with default headers
+        try:
+            html = client.request(url, headers=self.hdr)
+            if html and len(html) > 100:
+                return html
+        except:
+            pass
+        
+        return ""
 
     def _get_html(self, url):
         """
-        Fetch HTML with automatic fallback: tries Selenium first, then requests
-        This helps bypass SSL/WAF issues on Movie Rulz endpoints
+        Fetch HTML with automatic retry and SSL/WAF bypass
         """
-        # Try Selenium if available
-        html = self._fetch_html_with_selenium(url)
-        if html:
+        html = self._fetch_html_with_retry(url)
+        if html and len(html) > 100:
             return html
-        
-        # Fall back to standard requests if Selenium isn't available or failed
-        return client.request(url, headers=self.hdr)
+        return ""
 
     def get_menu(self):
         return (self.list, 7, self.icon)
