@@ -19,7 +19,7 @@ import json
 import re
 import ssl
 from bs4 import BeautifulSoup, SoupStrainer
-from resources.lib import client
+from resources.lib import client, control
 from resources.lib.base import Scraper
 from six.moves import urllib_parse
 
@@ -58,6 +58,8 @@ class mrulz(Scraper):
         Fetch HTML with retries and enhanced headers for SSL/WAF bypass
         Works on both desktop and Android Kodi
         """
+        control.log('[MRULZ] Fetching: ' + url, 'info')
+        
         # Enhanced user agents to match real browsers
         user_agents = [
             'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Brave/1.73',
@@ -78,29 +80,39 @@ class mrulz(Scraper):
         
         # Try with SSL verification disabled (works with Kodi's client module)
         try:
+            control.log('[MRULZ] Trying with verify=False', 'info')
             html = client.request(url, headers=headers, verify=False)
             if html and len(html) > 100:
+                control.log('[MRULZ] Got HTML: %d bytes' % len(html), 'info')
                 return html
-        except:
+        except Exception as e:
+            control.log('[MRULZ] verify=False failed: ' + str(e), 'warning')
             pass
         
         try:
             # Try with verifypeer header (alternative for Kodi)
+            control.log('[MRULZ] Trying with verifypeer header', 'info')
             headers['verifypeer'] = 'false'
             html = client.request(url, headers=headers)
             if html and len(html) > 100:
+                control.log('[MRULZ] Got HTML: %d bytes' % len(html), 'info')
                 return html
-        except:
+        except Exception as e:
+            control.log('[MRULZ] verifypeer failed: ' + str(e), 'warning')
             pass
         
         # Final fallback - try with default headers
         try:
+            control.log('[MRULZ] Trying with default headers', 'info')
             html = client.request(url, headers=self.hdr)
             if html and len(html) > 100:
+                control.log('[MRULZ] Got HTML: %d bytes' % len(html), 'info')
                 return html
-        except:
+        except Exception as e:
+            control.log('[MRULZ] Default headers failed: ' + str(e), 'warning')
             pass
         
+        control.log('[MRULZ] All fetch attempts failed', 'warning')
         return ""
 
     def _get_html(self, url):
@@ -110,6 +122,7 @@ class mrulz(Scraper):
         html = self._fetch_html_with_retry(url)
         if html and len(html) > 100:
             return html
+        control.log('[MRULZ] No valid HTML received', 'warning')
         return ""
 
     def get_menu(self):
@@ -123,11 +136,25 @@ class mrulz(Scraper):
             url = url + search_text
 
         html = self._get_html(url)
+        control.log('[MRULZ] Parsing HTML from: ' + url, 'info')
+        
+        # Debug: Log first 500 chars of HTML
+        if html:
+            control.log('[MRULZ] HTML preview: ' + html[:500], 'debug')
+        
         mlink = SoupStrainer('div', {'id': 'content'})
         mdiv = BeautifulSoup(html, "html.parser", parse_only=mlink)
         plink = SoupStrainer('nav', {'id': 'posts-nav'})
         Paginator = BeautifulSoup(html, "html.parser", parse_only=plink)
         items = mdiv.find_all('div', {'class': 'boxed film'})
+        
+        control.log('[MRULZ] Found %d movies' % len(items), 'info')
+        
+        # If no items found, try alternate selector
+        if not items:
+            control.log('[MRULZ] No items with boxed film, trying alternate selectors', 'warning')
+            items = BeautifulSoup(html, "html.parser").find_all('div', {'class': 'film'})
+            control.log('[MRULZ] Found %d items with film selector' % len(items), 'info')
 
         for item in items:
             title = self.unescape(item.text)
