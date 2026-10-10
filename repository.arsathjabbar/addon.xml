@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.arsathjabbar" name="Arsath Jabbar Kodi Add-ons" version="1.0.0" provider-name="arsathjabbar">
+	<extension point="xbmc.addon.repository" name="Arsath Jabbar Kodi Add-ons">
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/arsathjabbar/AbdulKodiWork/master/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/arsathjabbar/AbdulKodiWork/master/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/arsathjabbar/AbdulKodiWork/master/zips/</datadir>
+		</dir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Arsath Jabbar Kodi Add-ons</summary>
+		<description>A personal Kodi add-on repository maintained by Arsath Jabbar.</description>
+		<platform>all</platform>
+	</extension>
+</addon>
