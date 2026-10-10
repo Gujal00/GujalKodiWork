@@ -1,0 +1,2 @@
+[B]Version 1.0.0[/B]
+- Initial release of the Arsath Jabbar Kodi add-on repository.
